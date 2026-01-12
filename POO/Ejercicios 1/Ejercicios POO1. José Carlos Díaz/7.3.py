@@ -1,0 +1,1 @@
+#La clase no va a heredar los atributos de la clase principal por lo que, serán atributos independientes y los del padre no existirán en el objeto.
