@@ -1,6 +1,0 @@
-Python
-Java
-JS
-Cobol
-CSS
-C##
