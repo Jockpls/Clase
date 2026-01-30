@@ -5,7 +5,7 @@ import sys
 fichero = input('Introduce el nombre del fichero: ')
 
 if not os.path.exists(fichero):  # comprobamos que el fichero existe
-    print(f"El fichero {fichero} no existe. Terminamos...", file=sys.stderr)
+    print(f"El fichero {fichero} no existe. Terminamos...", file=alumnos2.csv)
     exit(1)
 
 
