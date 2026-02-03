@@ -1,6 +1,0 @@
-escrito = open('alumnos.csv','wt')
-escrito.write('Nombre,Edad,Curso\n')
-escrito.write('Paco,12,DAW\n')
-escrito.write('David,21,DAW\n')
-escrito.write('Pedro, 22,DAW\n')
-escrito.close()
