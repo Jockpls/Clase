@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<libreria>
+    
+    
+    <libro>
+        
+        
+        <titulo>Don Quijote</titulo>
+        
+        
+        <autor>Miguel de Cervantes</autor>
+        
+        
+        <precio>19.95</precio>
+        
+    
+    </libro>
+    
+    
+    <libro>
+        
+        
+        <titulo>1984</titulo>
+        
+        
+        <autor>George Orwell</autor>
+        
+        
+        <precio>15.50</precio>
+        
+    
+    </libro>
+    
+    
+    <libro>
+        
+        
+        <titulo>El Principito</titulo>
+        
+        
+        <autor>Antoine de Saint-Exupéry</autor>
+        
+        
+        <precio>12.00</precio>
+        
+    
+    </libro>
+    
+
+    <libro>
+        <titulo>1</titulo>
+        <autor>2</autor>
+        <precio>3</precio>
+    </libro>
+    <libro>
+        <titulo>4</titulo>
+        <autor>5</autor>
+        <precio>6</precio>
+    </libro>
+    <libro>
+        <titulo>7</titulo>
+        <autor>8</autor>
+        <precio>9</precio>
+    </libro>
+</libreria>

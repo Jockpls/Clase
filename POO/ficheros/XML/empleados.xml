@@ -1,0 +1,10 @@
+<empresa>
+    <empleado id="1" departamento="Ventas">
+        <nombre>Laura</nombre>
+        <salario>1500</salario>
+    </empleado>
+    <empleado id="2" departamento="IT">
+        <nombre>Carlos</nombre>
+        <salario>2000</salario>
+    </empleado>
+</empresa
