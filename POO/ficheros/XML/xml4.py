@@ -6,7 +6,8 @@ tree = ET.parse(Empresa)
 root = tree.getroot()
 
 def showdept(departmento):
-    for root.attrib['departamento'] in empleado
+    for root.attrib['departamento'] in empleado:
+        
 
 employee = ET.Element('empleado')
 ET.Element.attrib['ID'] = '3'
