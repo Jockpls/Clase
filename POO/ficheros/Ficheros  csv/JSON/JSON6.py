@@ -11,5 +11,6 @@ if data:
     for usuario in data:
         if usuario.get('Email') == mail:
             print(usuario)
+            break
         else:
             print('No se encontró al usuario')
