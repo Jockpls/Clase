@@ -7,7 +7,7 @@ Condiciones:
 import re
 correo = input("Ingrese su correo: ")
 
-if re.fullmatch("[A-Za-z][@][A-Za-z][.][a-z]{2-4}", correo):
+if re.fullmatch(r"[A-Za-z0-9\S]+@[A-Za-z]+\.[a-z]{2,4}$", correo):
     print('Correcto')
 else:
     print('Incorrecto')
