@@ -1,10 +1,33 @@
-<Productos>
-  <Producto>
-    <Nombre>Teclado</Nombre>
-    <Precio>22.0</Precio>
-  </Producto>
-  <Producto>
-    <Nombre>Raton</Nombre>
-    <Precio>11.0</Precio>
-  </Producto>
-</Productos>
+<?xml version="1.0" ?>
+<empresa>
+	
+    
+	<empleado id="1" departamento="Ventas">
+		
+        
+		<nombre>Laura</nombre>
+		
+        
+		<salario>1500</salario>
+		
+    
+	</empleado>
+	
+    
+	<empleado id="2" departamento="IT">
+		
+        
+		<nombre>Carlos</nombre>
+		
+        
+		<salario>2000</salario>
+		
+    
+	</empleado>
+	
+
+	<empleado id="3" departamento="IT">
+		<nombre>Elver Galarga</nombre>
+		<salario>1896</salario>
+	</empleado>
+</empresa>
