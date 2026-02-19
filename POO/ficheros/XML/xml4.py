@@ -1,27 +1,33 @@
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-Empresa = "empleados.xml"
-tree = ET.parse(Empresa)
-root = tree.getroot()
-
 def showdept(departmento):
-    for root.attrib['departamento'] in empleado:
-        
+    print(f"\nResultados para {departmento}")
+    for emp in root.findall('empleado'):
+        if emp.get('departamento') == departmento:
+            nombre = emp.find('nombre').text
+            salario = emp.find('salario').text
+            print(f"\nNombre: {nombre} (ID:{emp.get('id')}): {salario}€ )")
 
-employee = ET.Element('empleado')
-ET.Element.attrib['ID'] = '3'
-ET.Element.attrib['Departamento'] = "IT"
-ET.SubElement(employee, 'nombre').text = 'Elver Galarga'
-ET.SubElement(employee, 'salario').text = '1896'
+def main():
+    archivo = "empleados.xml"
+    tree = ET.parse(archivo)
+    root = tree.getroot()
 
-Tree = ET.ElementTree(root)
+    employee = ET.Element('empleado')
+    employee.set('id','3')
+    employee.set('departamento', "IT")
+    ET.SubElement(employee, 'nombre').text = 'Elver Galarga'
+    ET.SubElement(employee, 'salario').text = '1896'
+    root.append(employee)
 
-xml_bytes = ET.tostring(root, encoding='utf-8')
-xml_pretty = minidom.parseString(xml_bytes).toprettyxml()
-with open('productos.xml', 'w') as xml_file:
-    xml_file.write(xml_pretty)
+    xml_bytes = ET.tostring(root, encoding='utf-8')
+    xml_pretty = minidom.parseString(xml_bytes).toprettyxml()
+    with open('productos.xml', 'w') as xml_file:
+        xml_file.write(xml_pretty)
 
-departmento = input('¿De qué departamento desea ver los empleados?')
-showdept(departmento)
+    departmento = input('¿De qué departamento desea ver los empleados?')
+    showdept(departmento)
 
+if __name__ == "__main__":
+    main()
