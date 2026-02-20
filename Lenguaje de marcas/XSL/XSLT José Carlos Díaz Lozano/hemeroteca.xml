@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio4.xsl"?>
+<hemeroteca>
+    <ejemplar fecha_publicacion="2024-05-20">
+        <cabecera>
+            <diario>El Eco Digital</diario>
+            <ciudad>Madrid</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Descubrimiento histórico en la IA</titular_principal>
+            <imagen src="portada_001.jpg" />
+        </portada>
+        <publicidad empresa="TechCorp">Anuncio de nuevos procesadores.</publicidad>
+        <seccion nombre="Tecnología">
+            <articulo>
+                <titular>IA generativa y el futuro del empleo</titular>
+                <autor>Ana Voltio</autor>
+            </articulo>
+        </seccion>
+        <publicidad>Oferta de suscripción anual.</publicidad>
+        <seccion nombre="Cultura">
+            <articulo>
+                <titular>Entrevista al último gran poeta</titular>
+                <autor>Carlos Sánchez</autor>
+            </articulo>
+        </seccion>
+        <suplemento nombre="Negocios y Finanzas">Especial sobre el IBEX 35</suplemento>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-21">
+        <cabecera>
+            <diario>Crónica Vasca</diario>
+            <ciudad>Bilbao</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Nueva ley de vivienda en vigor</titular_principal>
+        </portada>
+        <seccion nombre="Local">
+            <articulo>
+                <titular>Reforma del casco antiguo</titular>
+                <autor>Jon Guridi</autor>
+            </articulo>
+        </seccion>
+        <publicidad empresa="InmoNorte">Venta de pisos en el centro.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-22">
+        <cabecera>
+            <diario>La Vanguardia Digital</diario>
+            <ciudad>Barcelona</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Barcelona acogerá la cumbre del clima</titular_principal>
+            <imagen src="clima_2024.png" />
+        </portada>
+        <seccion nombre="Internacional">
+            <articulo>
+                <titular>Acuerdos globales por el hidrógeno verde</titular>
+                <autor>Marta Pons</autor>
+            </articulo>
+        </seccion>
+        <suplemento nombre="Ecología">Guía para el reciclaje doméstico</suplemento>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-23">
+        <cabecera>
+            <diario>El Faro del Sur</diario>
+            <ciudad>Sevilla</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Ola de calor récord en mayo</titular_principal>
+            <imagen src="sol_andalucia.jpg" />
+        </portada>
+        <publicidad empresa="AguaPura">Bebe dos litros al día.</publicidad>
+        <seccion nombre="Sociedad">
+            <articulo>
+                <titular>Refugios climáticos en las ciudades</titular>
+                <autor>María López</autor>
+            </articulo>
+        </seccion>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-24">
+        <cabecera>
+            <diario>Deportes 24h</diario>
+            <ciudad>Valencia</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Final de infarto en la liga</titular_principal>
+        </portada>
+        <seccion nombre="Fútbol">
+            <articulo>
+                <titular>Análisis táctico de la final</titular>
+                <autor>Santi Goles</autor>
+            </articulo>
+        </seccion>
+        <publicidad>Compra tu camiseta oficial aquí.</publicidad>
+        <suplemento nombre="Motor">Previo del Gran Premio</suplemento>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-25">
+        <cabecera>
+            <diario>Gaceta Gallega</diario>
+            <ciudad>Santiago</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Récord de peregrinos este año</titular_principal>
+            <imagen src="camino_santiago.jpg" />
+        </portada>
+        <seccion nombre="Turismo">
+            <articulo>
+                <titular>Nuevas rutas por la costa</titular>
+                <autor>Iria Castro</autor>
+            </articulo>
+        </seccion>
+        <publicidad empresa="Iberia">Vuelos directos desde 29 euros.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-26">
+        <cabecera>
+            <diario>Mundo Económico</diario>
+            <ciudad>Madrid</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Baja el desempleo al mínimo histórico</titular_principal>
+        </portada>
+        <publicidad empresa="Banco Sabadell">Cuenta ahorro sin comisiones.</publicidad>
+        <seccion nombre="Finanzas">
+            <articulo>
+                <titular>Subida de tipos en Europa</titular>
+                <autor>Luis Peseta</autor>
+            </articulo>
+        </seccion>
+        <suplemento nombre="Inversiones">Criptomonedas: ¿Es el momento?</suplemento>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-27">
+        <cabecera>
+            <diario>El Heraldo de Aragón</diario>
+            <ciudad>Zaragoza</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Plan de choque para la sequía</titular_principal>
+            <imagen src="ebro_seco.png" />
+        </portada>
+        <seccion nombre="Campo">
+            <articulo>
+                <titular>Pérdidas millonarias en el cereal</titular>
+                <autor>Antonio Martínez</autor>
+            </articulo>
+        </seccion>
+        <publicidad>Seguros agrarios Mapfre.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-28">
+        <cabecera>
+            <diario>Diario de Mallorca</diario>
+            <ciudad>Palma</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Limitan la llegada de cruceros</titular_principal>
+        </portada>
+        <seccion nombre="Baleares">
+            <articulo>
+                <titular>Sostenibilidad en el puerto</titular>
+                <autor>Joan Illes</autor>
+            </articulo>
+        </seccion>
+        <publicidad empresa="Balearia">Viaja entre islas.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-29">
+        <cabecera>
+            <diario>La Voz de Asturias</diario>
+            <ciudad>Oviedo</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Apertura de la nueva variante ferroviaria</titular_principal>
+            <imagen src="tren_ave.jpg" />
+        </portada>
+        <seccion nombre="Transportes">
+            <articulo>
+                <titular>Madrid-Oviedo en menos de 3 horas</titular>
+                <autor>Sara Carbón</autor>
+            </articulo>
+        </seccion>
+        <suplemento nombre="Gastronomía">Ruta de la sidra 2024</suplemento>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-30">
+        <cabecera>
+            <diario>Canarias Semanal</diario>
+            <ciudad>Las Palmas</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Nuevos volcanes monitorizados</titular_principal>
+        </portada>
+        <seccion nombre="Ciencia">
+            <articulo>
+                <titular>Geología extrema en las islas</titular>
+                <autor>Isabel Gómez</autor>
+            </articulo>
+        </seccion>
+        <publicidad empresa="Binter">Vuela entre islas.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-05-31">
+        <cabecera>
+            <diario>El Periódico de Extremadura</diario>
+            <ciudad>Cáceres</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Festival de Teatro Clásico de Mérida</titular_principal>
+            <imagen src="merida_teatro.jpg" />
+        </portada>
+        <seccion nombre="Cultura">
+            <articulo>
+                <titular>Entradas agotadas para Medea</titular>
+                <autor>Lola Escena</autor>
+            </articulo>
+        </seccion>
+        <publicidad>Visita el Museo Vostell.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-06-01">
+        <cabecera>
+            <diario>Murcia Actualidad</diario>
+            <ciudad>Murcia</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>La huerta murciana lidera exportaciones</titular_principal>
+        </portada>
+        <publicidad empresa="AgroSostenible">Fertilizantes biológicos.</publicidad>
+        <seccion nombre="Economía">
+            <articulo>
+                <titular>El limón murciano en el mercado chino</titular>
+                <autor>Javier Frutas</autor>
+            </articulo>
+        </seccion>
+        <suplemento nombre="Motor">Coches eléctricos para el campo</suplemento>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-06-02">
+        <cabecera>
+            <diario>Castilla Hoy</diario>
+            <ciudad>Valladolid</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Plan regional de digitalización rural</titular_principal>
+            <imagen src="fibra_pueblo.png" />
+        </portada>
+        <seccion nombre="Castilla">
+            <articulo>
+                <titular>Fibra óptica para 200 municipios</titular>
+                <autor>Pedro Páramo</autor>
+            </articulo>
+        </seccion>
+        <publicidad>Telefónica informa.</publicidad>
+    </ejemplar>
+
+    <ejemplar fecha_publicacion="2024-06-03">
+        <cabecera>
+            <diario>La Gaceta de Madrid</diario>
+            <ciudad>Madrid</ciudad>
+        </cabecera>
+        <portada>
+            <titular_principal>Exposición única de Velázquez</titular_principal>
+        </portada>
+        <publicidad empresa="Museo del Prado">Entrada gratuita lunes tarde.</publicidad>
+        <seccion nombre="Arte">
+            <articulo>
+                <titular>Obras nunca vistas del genio</titular>
+                <autor>Goya Pintor</autor>
+            </articulo>
+        </seccion>
+        <suplemento nombre="Ocio">Cartelera de estrenos de junio</suplemento>
+    </ejemplar>
+</hemeroteca>

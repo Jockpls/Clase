@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio1.xsl"?>
+<academia>
+    <curso nivel="basico">
+        <titulo_curso>Introducción a XML</titulo_curso>
+        <descripcion>Aprende las bases de los lenguajes de marcas de una forma <negrita>sencilla y práctica</negrita>.</descripcion>
+        <profesor>Juan Pérez</profesor>
+        <profesor>María García</profesor>
+        <temario>
+            <modulo nombre="Sintaxis">
+                <video>Etiquetas y Atributos</video>
+                <video>Reglas de Oro</video>
+            </modulo>
+        </temario>
+    </curso>
+
+    <curso nivel="avanzado">
+        <titulo_curso>Maestría en Bases de Datos NoSQL</titulo_curso>
+        <descripcion>Domina el almacenamiento de datos a gran escala con <negrita>alto rendimiento</negrita>.</descripcion>
+        <profesor>Dr. Alan Turing</profesor>
+        <temario>
+            <modulo nombre="Arquitectura">
+                <video>Teorema CAP</video>
+            </modulo>
+        </temario>
+        <examen_final>Proyecto práctico de escalabilidad</examen_final>
+    </curso>
+
+    <curso nivel="medio">
+        <titulo_curso>Programación con Python</titulo_curso>
+        <descripcion>Desarrolla aplicaciones potentes utilizando <negrita>librerías modernas</negrita>.</descripcion>
+        <profesor>Guido Van Rossum</profesor>
+        <temario>
+            <modulo nombre="Fundamentos">
+                <video>Tipos de datos</video>
+                <video>Estructuras de control</video>
+            </modulo>
+        </temario>
+        <examen_final>Desarrollo de un script de automatización</examen_final>
+    </curso>
+
+    <curso nivel="basico">
+        <titulo_curso>Diseño Web Responsivo</titulo_curso>
+        <descripcion>Crea sitios web que se adapten a <negrita>cualquier dispositivo</negrita>.</descripcion>
+        <profesor>Marta Sánchez</profesor>
+        <temario>
+            <modulo nombre="CSS Layouts">
+                <video>Flexbox</video>
+                <video>Grid Layout</video>
+            </modulo>
+        </temario>
+    </curso>
+
+    <curso nivel="medio">
+        <titulo_curso>Administración de Sistemas Linux</titulo_curso>
+        <descripcion>Gestiona servidores corporativos con <negrita>máxima seguridad</negrita>.</descripcion>
+        <profesor>Linus Torvalds</profesor>
+        <temario>
+            <modulo nombre="Kernel">
+                <video>Compilación de módulos</video>
+            </modulo>
+        </temario>
+        <examen_final>Configuración de firewall avanzado</examen_final>
+    </curso>
+
+    <curso nivel="avanzado">
+        <titulo_curso>Ciberseguridad Ofensiva</titulo_curso>
+        <descripcion>Aprende técnicas de <negrita>pentesting</negrita> profesional.</descripcion>
+        <profesor>Kevin Mitnick</profesor>
+        <temario>
+            <modulo nombre="Explotación">
+                <video>Buffer Overflow</video>
+            </modulo>
+        </temario>
+        <examen_final>Auditoría de red local</examen_final>
+    </curso>
+
+    <curso nivel="medio">
+        <titulo_curso>Desarrollo de Apps con Flutter</titulo_curso>
+        <descripcion>Crea aplicaciones nativas para <negrita>iOS y Android</negrita>.</descripcion>
+        <profesor>Sara Lee</profesor>
+        <temario>
+            <modulo nombre="Widgets">
+                <video>Stateless vs Stateful</video>
+            </modulo>
+        </temario>
+    </curso>
+
+    <curso nivel="basico">
+        <titulo_curso>Fundamentos de SQL</titulo_curso>
+        <descripcion>Aprende a consultar bases de datos <negrita>relacionales</negrita>.</descripcion>
+        <profesor>Roberto Alarcón</profesor>
+        <temario>
+            <modulo nombre="Consultas">
+                <video>SELECT y JOINs</video>
+            </modulo>
+        </temario>
+        <examen_final>Examen teórico de normalización</examen_final>
+    </curso>
+
+    <curso nivel="medio">
+        <titulo_curso>Cloud Computing con AWS</titulo_curso>
+        <descripcion>Despliega tu infraestructura en la <negrita>nube líder</negrita>.</descripcion>
+        <profesor>Jeff Bezos</profesor>
+        <temario>
+            <modulo nombre="Servicios Core">
+                <video>Instancias EC2</video>
+                <video>Almacenamiento S3</video>
+            </modulo>
+        </temario>
+    </curso>
+
+    <curso nivel="avanzado">
+        <titulo_curso>Machine Learning con R</titulo_curso>
+        <descripcion>Implementa <negrita>algoritmos predictivos</negrita> complejos.</descripcion>
+        <profesor>Elena García</profesor>
+        <temario>
+            <modulo nombre="Regresión">
+                <video>Modelos lineales</video>
+            </modulo>
+        </temario>
+        <examen_final>Predicción de series temporales</examen_final>
+    </curso>
+
+    <curso nivel="basico">
+        <titulo_curso>Control de Versiones con Git</titulo_curso>
+        <descripcion>No pierdas nunca más tu código con <negrita>flujos de trabajo eficaces</negrita>.</descripcion>
+        <profesor>Linus Torvalds</profesor>
+        <temario>
+            <modulo nombre="Básico">
+                <video>Commit y Push</video>
+            </modulo>
+        </temario>
+    </curso>
+
+    <curso nivel="medio">
+        <titulo_curso>Docker y Contenedores</titulo_curso>
+        <descripcion>Aprende a <negrita>aislar entornos</negrita> de desarrollo.</descripcion>
+        <profesor>James Bottomley</profesor>
+        <temario>
+            <modulo nombre="Imágenes">
+                <video>Creación de Dockerfiles</video>
+            </modulo>
+        </temario>
+        <examen_final>Orquestación con Docker Compose</examen_final>
+    </curso>
+
+    <curso nivel="avanzado">
+        <titulo_curso>Desarrollo Backend con Node.js</titulo_curso>
+        <descripcion>Crea APIs escalables y de <negrita>alto rendimiento</negrita>.</descripcion>
+        <profesor>Ryan Dahl</profesor>
+        <temario>
+            <modulo nombre="Async">
+                <video>Event Loop</video>
+                <video>Promises y Async/Await</video>
+            </modulo>
+        </temario>
+    </curso>
+
+    <curso nivel="medio">
+        <titulo_curso>Análisis de Datos con Excel</titulo_curso>
+        <descripcion>Domina las <negrita>tablas dinámicas</negrita> y Power Query.</descripcion>
+        <profesor>Satya Nadella</profesor>
+        <temario>
+            <modulo nombre="Funciones">
+                <video>BUSCARV y XLOOKUP</video>
+            </modulo>
+        </temario>
+        <examen_final>Dashboard de ventas interactivo</examen_final>
+    </curso>
+
+    <curso nivel="basico">
+        <titulo_curso>Ética en la Inteligencia Artificial</titulo_curso>
+        <descripcion>Debate sobre el <negrita>impacto social</negrita> de los algoritmos.</descripcion>
+        <profesor>Timnit Gebru</profesor>
+        <temario>
+            <modulo nombre="Sesgos">
+                <video>Identificación de sesgos algorítmicos</video>
+            </modulo>
+        </temario>
+    </curso>
+</academia>

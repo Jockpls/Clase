@@ -1,0 +1,59 @@
+head {
+background-color:rgb(255,255,255);
+}
+
+body {
+background-image: url("lechuga.png");
+background-repeat: no-repeat;
+background-position: right top;
+margin-right: 1000px;
+background-attachment: fixed;
+}
+p.dotted {border-style: solid dotted outset;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;
+        border-width: 10px;
+        border-color: #ff0000}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+div.primero {border-style: dotted;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 80px;
+}
+h1 {
+background-color:rgba(0,255,255,0.5);
+}
+
+h2 {
+background-color:rgba(92, 90, 221,0.5);
+}
+h3 {
+    background-color: rgba(0, 255, 55,0.5)
+}
+
+div.primero {
+    height: 200px;
+    width: 50%;
+    border: 3px solid black;
+    margin: auto;
+    background-color:lightblue;
+}
+
+div.segundo {
+    width: 50%;
+    max-width: 500px;
+    background-color: powderblue;
+    padding: 10px;
+    border: 3px solid red;
+}

@@ -1,0 +1,63 @@
+table{
+    position: center;
+    width: 500px;
+    margin: auto;
+    font-family: "Arial", sans-serif;
+    height: 25vh;
+    border-style: none solid ridge solid;
+    border-collapse: collapse;
+
+}
+
+caption{
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+th#uno {
+    position: center;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    border-style: none solid none none;
+
+}
+
+th#dos {
+    background-color: rgb(172, 172, 172);
+    position: center;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    border-style: none none none solid;
+
+}
+th#viernes {
+    position: center;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    border-style: none;
+
+}
+
+td#tres {
+    text-align: center;
+    color: black;
+    border-style: none solid none none;
+}
+td#cuatro {
+    text-align: center;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    border-style: none none none solid;
+}
+
+td#viernes {
+    text-align: center;
+    color: black;
+    border-style: none;
+}

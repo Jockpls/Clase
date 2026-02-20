@@ -1,0 +1,16 @@
+<!-- + -> 1 a N elementos, * ->0 a N elementos, ? -> 0 o 1 elemento -->
+<!DOCTYPE TVSCHEDULE SYSTEM "1.dtd">
+<TVSCHEDULE NAME="NOTICIAS">
+    <CHANNEL CHAN="A3">
+        <BANNER></BANNER>
+        <DAY>
+            <DATE>27-1-2026</DATE>
+            <HOLIDAY>28-1-2026</HOLIDAY>
+            <PROGRAMSLOT VTR="001">
+                <TIME>08:00</TIME>
+                <TITLE>Morning News</TITLE>
+                <DESCRIPTION>Latest updates from around the world.</DESCRIPTION> 
+            </PROGRAMSLOT>
+        </DAY>
+    </CHANNEL>
+</TVSCHEDULE>

@@ -1,0 +1,54 @@
+caption{
+    background-color: rgb(196, 142, 88);
+    color:rgba(255, 255, 255, 0.548);
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 25px;
+    border-style: none none hidden none;
+    margin-bottom: 25px;
+
+}
+
+table{
+    position: center;
+    width: 45%;
+    border-collapse: collapse;
+    border-style: solid;
+    margin: auto;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    height: 25vh;
+    width: 25vw;
+}
+td, th {
+    border: 1px solid #8b8b8b;
+}
+
+th#uno{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+th#dos{
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td#uno{
+    font-size: 17px;
+}
+
+td#dos{
+    background-color: orange;
+    font-size: 17px;
+
+}
+
+td#cuatro{
+    background-color: rgba(204, 122, 14, 0.342);
+    font-size: 17px;
+}
+
+tr#uno{
+    background-color: rgba(243, 243, 37, 0.637);}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ejercicio 3.css" rel="stylesheet">
+    <title>Registration</title>
+</head>
+<body>
+    <h3 class="uno">Registration</h3>
+    <form>  
+        <fieldset class="Primero">
+            <legend id="cinco">
+                Account Details
+            </legend>
+            <label for="Email">Email*</label>
+            <input id="Email"></input>
+            <label for="Repeat Email">Repeat Email*</label>
+            <input id="Repeat Email"></input>
+        </br>
+            <label for="password">Password*</label>
+            <input id="Password"></input>
+            <label for="Repeat Password">Repeat Password*</label>
+            <input id="Repeat Password"></input> <p id="tres">*obligatory fields</p>
+        </fieldset>
+        <fieldset class="Segundo">
+            <legend id="seis">
+                Personal Details
+            </legend>
+            <label for="name">Name*</label>
+            <input id="Name"></input>
+            </br>
+            <label for="Phone">Phone*</label>
+            <input id="Phone"></input>
+            </br>
+            <label for="Street">Street</label>
+            <input id="Street"></input>
+            </br>
+            <label for="City">City*</label>
+            <input id="City"></input>
+            </br>
+            <label for="Country">Country*</label>
+            <input id="Country"></input>
+            </br>
+            <label for="Website">Website</label>
+            <input id="Website" value="http://"></input>
+            </br>
+        </fieldset>
+        <fieldset class="Tercero">
+            <legend id="siete">
+                Further Information
+            </legend>
+            <label for="Gender">Gender*</label>
+            <input id="Gender" type="radio" name="Male">Male</input>
+            <input  id="Gender" type="radio" name="Male">Female</input>
+        </br>
+            <label for="Birthdate">Birthdate*</label>
+           <select id ="Birthdate" name="Day">			
+  			<option value="1">01</option>
+  			<option value="2">2</option>
+ 			<option value="3">3</option>
+ 			<option value="4">4</option>
+  			<option value="5">5</option>
+  			<option value="6">6</option>
+  			<option value="7">7</option>
+  			<option value="8">8</option>
+  			<option value="9">9</option>
+  			<option value="10">10</option>
+  			<option value="11">11</option>
+  			<option value="12">12</option>
+  			<option value="13">13</option>
+  			<option value="14">14</option>
+  			<option value="15">15</option>
+  			<option value="16">16</option>
+  			<option value="17">17</option>
+  			<option value="18">18</option>
+  			<option value="19">19</option>
+  			<option value="20">20</option>
+  			<option value="21">21</option>
+  			<option value="22">22</option>
+  			<option value="23">23</option>
+  			<option value="24">24</option>
+  			<option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+  			<option value="28">28</option>
+  			<option value="29">29</option>
+  			<option value="30">30</option>
+  			<option value="31">31</option>
+        </select>
+		    <select id="Birthdate" name="Month">
+  			<option value="Enero">January</option>
+  			<option value="Febrero">February</option>
+  			<option value="Marzo">March</option>
+  			<option value="Abril">April</option>
+  			<option value="Mayo">May</option>
+  			<option value="Junio">June</option>
+  			<option value="Julio">July</option>
+  			<option value="Agosto">August</option>
+  			<option value="Septiembre">September</option>
+  			<option value="Octubre">October</option>
+  			<option value="Noviembre">November</option>
+  			<option value="Diciembre">Dicember</option>
+		</select>
+		    <input id="Birthdate" name="Year"></input>e.g. 1976
+        </br>
+            <label for="Nationality">Nationality*</label>
+            <select id="Nationality" name="Nationality"></select>
+            <option value=""></option>
+            <label for="Children">Children*</label>
+            <input id="Children" type="checkbox">
+        </br>
+            <div class="dos">
+                <h4>HELPFUL INFORMATION</h4>
+                <p id="cuatro"> Here comes some explaining text, sed ut perspiciatis unde omnis iste natus, error sit voluptatem accusantium doloremque laudantium, totam rem apernam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+        </fieldset>
+        <fieldset class="cuarto">
+            <legend>Terms and Mailing</legend>
+            <input type="checkbox">*I accept the Terms and Conditions
+        </br>
+            <input type="checkbox">I want to receive personalized offers by your site
+        </br>
+            <input type="checkbox">Allow partners to send me personlaized offers and related services 
+        </fieldset>
+        <input type="button" id="boton" value="Register >>">
+    </form>
+</body>
+</html>

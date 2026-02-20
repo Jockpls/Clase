@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio2.xsl"?>
+<hospital>
+    <paciente id="p001" tipo_seguro="privado">
+        <nombre_completo>Carlos Ruiz Zafón</nombre_completo>
+        <fecha_ingreso dia="15" mes="01" año="2024" />
+        <diagnostico>Apendicitis aguda</diagnostico>
+        <medico_asignado colegiado="282845678">Dra. García</medico_asignado>
+        <habitacion>
+            <planta>3</planta>
+            <cama>302</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p002" tipo_seguro="publico">
+        <nombre_completo>Ana Belén Pastor</nombre_completo>
+        <fecha_ingreso dia="20" mes="01" año="2024" />
+        <diagnostico>Fractura de fémur</diagnostico>
+        <medico_asignado colegiado="282899000">Dr. López</medico_asignado>
+        <habitacion>
+            <planta>1</planta>
+            <cama>105</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p003" tipo_seguro="privado">
+        <nombre_completo>Marcos Soler Gil</nombre_completo>
+        <fecha_ingreso dia="02" mes="02" año="2024" />
+        <diagnostico>Neumonía bacteriana</diagnostico>
+        <medico_asignado colegiado="282811223">Dra. Martínez</medico_asignado>
+        <habitacion>
+            <planta>4</planta>
+            <cama>410</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p004" tipo_seguro="publico">
+        <nombre_completo>Elena Furiase González</nombre_completo>
+        <fecha_ingreso dia="10" mes="02" año="2024" />
+        <diagnostico>Cálculos renales</diagnostico>
+        <medico_asignado colegiado="282833445">Dr. Sánchez</medico_asignado>
+        <habitacion>
+            <planta>2</planta>
+            <cama>215</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p005" tipo_seguro="privado">
+        <nombre_completo>Javier Cámara Silva</nombre_completo>
+        <fecha_ingreso dia="12" mes="02" año="2024" />
+        <diagnostico>Gastroenteritis severa</diagnostico>
+        <medico_asignado colegiado="282855667">Dra. Román</medico_asignado>
+        <habitacion>
+            <planta>3</planta>
+            <cama>305</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p006" tipo_seguro="publico">
+        <nombre_completo>Sofía Nieto Ruiz</nombre_completo>
+        <fecha_ingreso dia="15" mes="02" año="2024" />
+        <diagnostico>Insuficiencia cardíaca</diagnostico>
+        <medico_asignado colegiado="282877889">Dr. Pardo</medico_asignado>
+        <habitacion>
+            <planta>5</planta>
+            <cama>501</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p007" tipo_seguro="privado">
+        <nombre_completo>Ricardo Gómez Espada</nombre_completo>
+        <fecha_ingreso dia="18" mes="02" año="2024" />
+        <diagnostico>Hernia discal</diagnostico>
+        <medico_asignado colegiado="282899112">Dra. Ortiz</medico_asignado>
+        <habitacion>
+            <planta>1</planta>
+            <cama>112</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p008" tipo_seguro="publico">
+        <nombre_completo>Lucía Jiménez Mora</nombre_completo>
+        <fecha_ingreso dia="22" mes="02" año="2024" />
+        <diagnostico>Anemia ferropénica</diagnostico>
+        <medico_asignado colegiado="282822334">Dr. Castillo</medico_asignado>
+        <habitacion>
+            <planta>2</planta>
+            <cama>208</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p009" tipo_seguro="privado">
+        <nombre_completo>Fernando Tejero Blanco</nombre_completo>
+        <fecha_ingreso dia="25" mes="02" año="2024" />
+        <diagnostico>Postoperatorio rodilla</diagnostico>
+        <medico_asignado colegiado="282844556">Dra. Vidal</medico_asignado>
+        <habitacion>
+            <planta>1</planta>
+            <cama>120</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p010" tipo_seguro="publico">
+        <nombre_completo>Marta Etura Palomo</nombre_completo>
+        <fecha_ingreso dia="28" mes="02" año="2024" />
+        <diagnostico>Dermatitis aguda</diagnostico>
+        <medico_asignado colegiado="282866778">Dr. León</medico_asignado>
+        <habitacion>
+            <planta>4</planta>
+            <cama>402</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p011" tipo_seguro="privado">
+        <nombre_completo>Hugo Silva Artero</nombre_completo>
+        <fecha_ingreso dia="01" mes="03" año="2024" />
+        <diagnostico>Bronquitis crónica</diagnostico>
+        <medico_asignado colegiado="282888990">Dra. Sanz</medico_asignado>
+        <habitacion>
+            <planta>3</planta>
+            <cama>310</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p012" tipo_seguro="publico">
+        <nombre_completo>Belén Rueda Cuervo</nombre_completo>
+        <fecha_ingreso dia="05" mes="03" año="2024" />
+        <diagnostico>Migraña severa</diagnostico>
+        <medico_asignado colegiado="282800112">Dr. Torres</medico_asignado>
+        <habitacion>
+            <planta>2</planta>
+            <cama>222</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p013" tipo_seguro="privado">
+        <nombre_completo>Adrián Lastra Valle</nombre_completo>
+        <fecha_ingreso dia="08" mes="03" año="2024" />
+        <diagnostico>Colecistitis</diagnostico>
+        <medico_asignado colegiado="282811335">Dra. Méndez</medico_asignado>
+        <habitacion>
+            <planta>5</planta>
+            <cama>512</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p014" tipo_seguro="publico">
+        <nombre_completo>Natalia Verbeke Rey</nombre_completo>
+        <fecha_ingreso dia="12" mes="03" año="2024" />
+        <diagnostico>Diabetes descompensada</diagnostico>
+        <medico_asignado colegiado="282822446">Dr. Ramos</medico_asignado>
+        <habitacion>
+            <planta>4</planta>
+            <cama>405</cama>
+        </habitacion>
+    </paciente>
+
+    <paciente id="p015" tipo_seguro="privado">
+        <nombre_completo>Quim Gutiérrez Ferre</nombre_completo>
+        <fecha_ingreso dia="15" mes="03" año="2024" />
+        <diagnostico>Esguince de grado III</diagnostico>
+        <medico_asignado colegiado="282833557">Dra. Ibáñez</medico_asignado>
+        <habitacion>
+            <planta>1</planta>
+            <cama>130</cama>
+        </habitacion>
+    </paciente>
+</hospital>

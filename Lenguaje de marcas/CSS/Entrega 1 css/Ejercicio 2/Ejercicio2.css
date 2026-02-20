@@ -1,0 +1,35 @@
+th {
+    background-color: grey;
+    font-weight: lighter;
+    color: white;
+}
+
+td.a {
+    background-color: grey;
+    color: white;
+    font-weight: lighter;
+}
+
+td.b {
+    background-color: rgb(199, 196, 196);
+    color: black;
+    font-weight: lighter;
+}
+
+td.c {
+    background-color: rgb(197, 197, 22);
+    color: black;
+    
+    
+
+}
+
+table {
+    border: none;
+    text-align: center;
+
+}
+img {
+    width: 10px;
+    height: auto;
+}

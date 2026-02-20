@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(198, 158, 238);
+}
+div.primero{
+    position: absolute;
+    left: 375px;
+}
+div.segundo{
+    padding-left: 50px;
+    font-family: "Tangerine", serif;
+}
+div.tercero{
+    padding-left: 50px;
+    font-family: "Audiowide", sans-serif;
+}
+div.cuarto{
+    position: absolute;
+    top: 550px;
+    left: 425px;
+    font-family: "Audiowide", sans-serif;
+}
+div.quinto{
+        padding-left: 50px;
+    font-family: "Trirong", serif;
+}
+div.sexto{
+    position: absolute;
+    top: 775px;
+    left: 425px;
+    font-family: "Trirong", serif;
+}
+div.septimo{
+        padding-left: 50px;
+    font-family: "Tangerine", serif;
+}
+ul{
+    list-style-image: url(cuadraomorao.png);
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 128, 90);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}

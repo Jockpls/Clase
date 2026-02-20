@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="formulario.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<form action="/action_page.php">
+  <label for="Nombre">Nombre</label>
+  <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre...">
+
+  <label for="Apellido">Apellido</label>
+  <input type="text" id="Apellido" name="Apellido" placeholder="Tu apellido....">
+
+  <label for="País">País</label>
+  <select id="País" name="País">
+    <option value="ESPAÑA">ESPAÑOL DE ESPAÑA</option>
+    <option value="Andorra">Español de Andorra</option>
+    <option value="illo">Yoksetio</option>
+  </select>
+  <label for="Mensaje">Mensaje</label>
+  <textarea id="Mensaje" rows="10" cols="50" placeholder="Escribe tu mensaje..."></textarea>
+  
+  <input type="submit" value="Entregar">
+</form>
+</body>
+</html>

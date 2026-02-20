@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio3.xsl"?>
+<envios>
+    <albaran codigo_seguimiento="TRACK987654321">
+        <emisor>
+            <nombre>Logística Express S.A.</nombre>
+            <cif>A12345678</cif>
+            <direccion>Polígono Industrial Norte, Nave 4, Madrid</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Carlos Rodríguez</nombre>
+            <dni>12345678Z</dni>
+            <direccion_entrega>Calle Mayor 15, 2ºB, Sevilla</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">2.5</peso>
+            <dimensiones>
+                <largo>30</largo>
+                <ancho>20</ancho>
+                <alto>15</alto>
+            </dimensiones>
+            <tipo_contenido>Componentes electrónicos</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Madrid (Centro Logístico)</ciudad>
+                <hora_llegada>08:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Sevilla (Almacén Destino)</ciudad>
+                <hora_llegada>18:15</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>15.00</precio_base>
+            <impuestos>3.15</impuestos>
+            <total>18.15</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK000000002">
+        <emisor>
+            <nombre>Distribuciones Levante S.L.</nombre>
+            <cif>B98765432</cif>
+            <direccion>Av. del Puerto 45, Valencia</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Laura Ortiz</nombre>
+            <dni>87654321X</dni>
+            <direccion_entrega>Paseo de Gracia 102, Barcelona</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="g">850</peso>
+            <dimensiones>
+                <largo>15</largo>
+                <ancho>10</ancho>
+                <alto>5</alto>
+            </dimensiones>
+            <tipo_contenido>Libros y papelería</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Valencia (Salida)</ciudad>
+                <hora_llegada>09:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Tarragona (Tránsito)</ciudad>
+                <hora_llegada>13:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Barcelona (Entrega)</ciudad>
+                <hora_llegada>16:30</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>8.50</precio_base>
+            <impuestos>1.78</impuestos>
+            <total>10.28</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK111222333">
+        <emisor>
+            <nombre>Tecnología Global S.A.</nombre>
+            <cif>A44556677</cif>
+            <direccion>Parque Tecnológico, Edificio B, Málaga</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Pedro Picapiedra</nombre>
+            <dni>11223344M</dni>
+            <direccion_entrega>Calle Cantera 3, Granada</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">5.2</peso>
+            <dimensiones>
+                <largo>40</largo>
+                <ancho>40</ancho>
+                <alto>30</alto>
+            </dimensiones>
+            <tipo_contenido>Monitor de oficina</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Málaga (HUB)</ciudad>
+                <hora_llegada>10:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Granada (Almacén local)</ciudad>
+                <hora_llegada>12:45</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>22.00</precio_base>
+            <impuestos>4.62</impuestos>
+            <total>26.62</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK444555666">
+        <emisor>
+            <nombre>Moda Ibérica</nombre>
+            <cif>B33221100</cif>
+            <direccion>Polígono de Arteixo, Coruña</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Sara Carbonero</nombre>
+            <dni>55667788L</dni>
+            <direccion_entrega>Av. de la Libertad 22, San Sebastián</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">1.2</peso>
+            <dimensiones>
+                <largo>35</largo>
+                <ancho>25</ancho>
+                <alto>10</alto>
+            </dimensiones>
+            <tipo_contenido>Ropa y calzado</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Coruña (Origen)</ciudad>
+                <hora_llegada>07:30</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Bilbao (Transfer)</ciudad>
+                <hora_llegada>15:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>San Sebastián (Final)</ciudad>
+                <hora_llegada>19:00</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>12.40</precio_base>
+            <impuestos>2.60</impuestos>
+            <total>15.00</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK777888999">
+        <emisor>
+            <nombre>BioFarmacéutica S.L.</nombre>
+            <cif>B11882299</cif>
+            <direccion>Calle Salud 50, Zaragoza</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Julián Muñoz</nombre>
+            <dni>99001122K</dni>
+            <direccion_entrega>Calle Alameda 7, Marbella</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">0.5</peso>
+            <dimensiones>
+                <largo>10</largo>
+                <ancho>10</ancho>
+                <alto>10</alto>
+            </dimensiones>
+            <tipo_contenido>Medicamentos refrigerados</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Zaragoza (Lab)</ciudad>
+                <hora_llegada>06:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Madrid (Tránsito)</ciudad>
+                <hora_llegada>11:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Marbella (Destino)</ciudad>
+                <hora_llegada>20:00</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>30.00</precio_base>
+            <impuestos>6.30</impuestos>
+            <total>36.30</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK101010101">
+        <emisor>
+            <nombre>Gourmet Selección</nombre>
+            <cif>B55443322</cif>
+            <direccion>Mercamadrid, Nave G, Madrid</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Antonio Banderas</nombre>
+            <dni>33445566P</dni>
+            <direccion_entrega>Cuesta del Rosario 4, Málaga</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">10.0</peso>
+            <dimensiones>
+                <largo>60</largo>
+                <ancho>40</ancho>
+                <alto>40</alto>
+            </dimensiones>
+            <tipo_contenido>Aceite de Oliva y Vinos</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Madrid (Carga)</ciudad>
+                <hora_llegada>05:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Málaga (Descarga)</ciudad>
+                <hora_llegada>11:30</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>18.50</precio_base>
+            <impuestos>3.89</impuestos>
+            <total>22.39</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK202020202">
+        <emisor>
+            <nombre>Repuestos Automoción</nombre>
+            <cif>A00112233</cif>
+            <direccion>ZAL Puerto, Barcelona</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Marta Sánchez</nombre>
+            <dni>77665544D</dni>
+            <direccion_entrega>Plaza de la Paz 1, Valladolid</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">15.8</peso>
+            <dimensiones>
+                <largo>100</largo>
+                <ancho>50</ancho>
+                <alto>20</alto>
+            </dimensiones>
+            <tipo_contenido>Piezas de motor</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Barcelona (Puerto)</ciudad>
+                <hora_llegada>08:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Zaragoza (Nodo)</ciudad>
+                <hora_llegada>14:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Valladolid (Entrega)</ciudad>
+                <hora_llegada>19:45</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>45.00</precio_base>
+            <impuestos>9.45</impuestos>
+            <total>54.45</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK303030303">
+        <emisor>
+            <nombre>Papelería Central</nombre>
+            <cif>B22334455</cif>
+            <direccion>Polígono de Las Arenas, Cáceres</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Roberto Álamo</nombre>
+            <dni>22334455F</dni>
+            <direccion_entrega>Calle de la Unión 12, Badajoz</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="g">500</peso>
+            <dimensiones>
+                <largo>30</largo>
+                <ancho>20</ancho>
+                <alto>2</alto>
+            </dimensiones>
+            <tipo_contenido>Documentación legal</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Cáceres (Oficina)</ciudad>
+                <hora_llegada>17:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Badajoz (Destinatario)</ciudad>
+                <hora_llegada>19:00</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>5.50</precio_base>
+            <impuestos>1.16</impuestos>
+            <total>6.66</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK404040404">
+        <emisor>
+            <nombre>Hogar y Jardín</nombre>
+            <cif>A55566677</cif>
+            <direccion>Ctra. de Toledo km 12, Getafe</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Carmen Maura</nombre>
+            <dni>88776655G</dni>
+            <direccion_entrega>Calle del Viento 9, Santander</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">25.0</peso>
+            <dimensiones>
+                <largo>120</largo>
+                <ancho>80</ancho>
+                <alto>60</alto>
+            </dimensiones>
+            <tipo_contenido>Mueble de exterior</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Getafe (Almacén)</ciudad>
+                <hora_llegada>09:15</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Burgos (Descanso)</ciudad>
+                <hora_llegada>14:30</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Santander (Muelles)</ciudad>
+                <hora_llegada>18:20</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>62.00</precio_base>
+            <impuestos>13.02</impuestos>
+            <total>75.02</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK505050505">
+        <emisor>
+            <nombre>Deportes Extremos S.A.</nombre>
+            <cif>A99887766</cif>
+            <direccion>Paseo de la Castellana 200, Madrid</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Iker Casillas</nombre>
+            <dni>44332211H</dni>
+            <direccion_entrega>Calle Mayor s/n, Móstoles</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">3.4</peso>
+            <dimensiones>
+                <largo>40</largo>
+                <ancho>30</ancho>
+                <alto>25</alto>
+            </dimensiones>
+            <tipo_contenido>Equipación de fútbol</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Madrid (Central)</ciudad>
+                <hora_llegada>10:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Móstoles (Punto Pack)</ciudad>
+                <hora_llegada>11:30</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>9.00</precio_base>
+            <impuestos>1.89</impuestos>
+            <total>10.89</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK606060606">
+        <emisor>
+            <nombre>Librería Versos</nombre>
+            <cif>B66778899</cif>
+            <direccion>Barrio Húmedo, León</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Lola Indigo</nombre>
+            <dni>66778899J</dni>
+            <direccion_entrega>Av. Gran Vía 1, Granada</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="g">900</peso>
+            <dimensiones>
+                <largo>25</largo>
+                <ancho>15</ancho>
+                <alto>5</alto>
+            </dimensiones>
+            <tipo_contenido>Poesía Completa</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>León (Origen)</ciudad>
+                <hora_llegada>08:45</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Madrid (Nudo)</ciudad>
+                <hora_llegada>14:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Granada (Entrega)</ciudad>
+                <hora_llegada>19:15</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>7.20</precio_base>
+            <impuestos>1.51</impuestos>
+            <total>8.71</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK707070707">
+        <emisor>
+            <nombre>Suministros Industriales</nombre>
+            <cif>A11447700</cif>
+            <direccion>Polígono Jundiz, Vitoria-Gasteiz</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Karlos Arguiñano</nombre>
+            <dni>00998877Y</dni>
+            <direccion_entrega>Playa de Zarautz 1, Zarautz</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">45.0</peso>
+            <dimensiones>
+                <largo>200</largo>
+                <ancho>40</ancho>
+                <alto>40</alto>
+            </dimensiones>
+            <tipo_contenido>Cocina Industrial</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Vitoria (Factoría)</ciudad>
+                <hora_llegada>07:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Zarautz (Destino)</ciudad>
+                <hora_llegada>08:30</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>120.00</precio_base>
+            <impuestos>25.20</impuestos>
+            <total>145.20</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK808080808">
+        <emisor>
+            <nombre>Instrumentos Musicales S.L.</nombre>
+            <cif>B44992211</cif>
+            <direccion>Calle del Pez 12, Madrid</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Rosalía Vila</nombre>
+            <dni>11992288Z</dni>
+            <direccion_entrega>Calle de Sants 20, Barcelona</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">6.5</peso>
+            <dimensiones>
+                <largo>110</largo>
+                <ancho>45</ancho>
+                <alto>15</alto>
+            </dimensiones>
+            <tipo_contenido>Guitarra Española</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Madrid (Tienda)</ciudad>
+                <hora_llegada>10:15</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Zaragoza (Tránsito)</ciudad>
+                <hora_llegada>15:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Barcelona (Estudio)</ciudad>
+                <hora_llegada>19:30</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>25.50</precio_base>
+            <impuestos>5.36</impuestos>
+            <total>30.86</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK909090909">
+        <emisor>
+            <nombre>Viveros del Sur</nombre>
+            <cif>B55001144</cif>
+            <direccion>Ctra. de Almería s/n, El Ejido</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Pablo Alborán</nombre>
+            <dni>33221144S</dni>
+            <direccion_entrega>Paseo Marítimo 3, Fuengirola</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">12.0</peso>
+            <dimensiones>
+                <largo>150</largo>
+                <ancho>30</ancho>
+                <alto>30</alto>
+            </dimensiones>
+            <tipo_contenido>Plantas ornamentales</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>El Ejido (Vivero)</ciudad>
+                <hora_llegada>06:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Málaga (Centro Logístico)</ciudad>
+                <hora_llegada>09:30</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>Fuengirola (Domicilio)</ciudad>
+                <hora_llegada>11:45</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>21.00</precio_base>
+            <impuestos>4.41</impuestos>
+            <total>25.41</total>
+        </costes>
+    </albaran>
+
+    <albaran codigo_seguimiento="TRACK015015015">
+        <emisor>
+            <nombre>Artículos de Fiesta</nombre>
+            <cif>B77889900</cif>
+            <direccion>Polígono Espíritu Santo, Oviedo</direccion>
+        </emisor>
+        <receptor>
+            <nombre>Fernando Alonso</nombre>
+            <dni>14141414A</dni>
+            <direccion_entrega>Circuito de Asturias, La Morgal</direccion_entrega>
+        </receptor>
+        <detalle_paquete>
+            <peso unidad="kg">2.1</peso>
+            <dimensiones>
+                <largo>50</largo>
+                <ancho>50</ancho>
+                <alto>50</alto>
+            </dimensiones>
+            <tipo_contenido>Trofeos y Medallas</tipo_contenido>
+        </detalle_paquete>
+        <ruta>
+            <escala>
+                <ciudad>Oviedo (Tienda)</ciudad>
+                <hora_llegada>09:00</hora_llegada>
+            </escala>
+            <escala>
+                <ciudad>La Morgal (Museo)</ciudad>
+                <hora_llegada>10:15</hora_llegada>
+            </escala>
+        </ruta>
+        <costes>
+            <precio_base>14.50</precio_base>
+            <impuestos>3.05</impuestos>
+            <total>17.55</total>
+        </costes>
+    </albaran>
+</envios>

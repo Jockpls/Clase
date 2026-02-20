@@ -1,0 +1,28 @@
+table{
+    position: center;
+    width: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    height: 25vh;
+
+}
+
+caption{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 30px;
+    color: white;
+    background-color: rgb(172, 172, 172);
+}
+
+th#uno {
+    background-color: rgb(172, 172, 172);
+    color: black;
+}
+td#uno {
+    background-color: rgb(172, 172, 172);
+    color: black;
+}
+

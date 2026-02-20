@@ -1,0 +1,41 @@
+<!DOCTYPE HEMEROTECA [
+<!ELEMENT HEMEROTECA (EJEMPLAR+)>
+<!ELEMENT EJEMPLAR (CABECERA, PORTADA, SECCION+, PUBLICIDAD?, SUPLEMENTO?)>
+<!ELEMENT CABECERA (NOMBRE_DIARIO, CIUDAD)>
+<!ELEMENT NOMBRE_DIARIO (#PCDATA)>
+<!ELEMENT CIUDAD (#PCDATA)>
+<!ELEMENT PORTADA (TITULAR, FOTO)>
+<!ELEMENT TITULAR (#PCDATA)>
+<!ELEMENT FOTO EMPTY>
+<!ELEMENT SECCION (ARTICULO+)>
+<!ELEMENT ARTICULO (#PCDATA)>
+<!ELEMENT PUBLICIDAD (#PCDATA)>
+<!ELEMENT SUPLEMENTO (#PCDATA)>
+<!ATTLIST EJEMPLAR
+FECHA_PUBLICACION CDATA #REQUIRED>
+<!ATTLIST FOTO
+SRC CDATA #REQUIRED>
+<!ATTLIST SUPLEMENTO
+NOMBRE CDATA #REQUIRED>
+]>
+<HEMEROTECA>
+    <EJEMPLAR FECHA_PUBLICACION="2024-06-15">
+        <CABECERA>
+            <NOMBRE_DIARIO>El Diario Global</NOMBRE_DIARIO>
+            <CIUDAD>Madrid</CIUDAD>
+        </CABECERA>
+        <PORTADA>
+            <TITULAR>Avances Tecnnológicos en 2024</TITULAR>
+            <FOTO SRC="foto1.jpg"/>
+        </PORTADA>
+        <SECCION>
+            <ARTICULO>La inteligencia artificial está transformando diversas industrias...</ARTICULO>
+            <ARTICULO>El cambio climático sigue siendo una preocupación global...</ARTICULO>
+        </SECCION>
+        <SECCION>
+            <ARTICULO>El mercado bursátil muestra signos de recuperación...</ARTICULO>
+        </SECCION>
+        <PUBLICIDAD>Compra uno y lleva otro gratis en todas las tiendas...</PUBLICIDAD>
+        <SUPLEMENTO NOMBRE="Cultura y Ocio">Descubre las últimas tendencias en arte y entretenimiento...</SUPLEMENTO>
+    </EJEMPLAR>
+</HEMEROTECA>

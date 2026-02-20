@@ -1,0 +1,106 @@
+h1 {
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    color: chocolate;
+    text-indent: 255px;
+}
+
+h2 {
+    font-family: "Sofia";
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 4px ;
+    color: rgb(231, 152, 33);
+    text-align: justify;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-style: dotted ;
+    text-decoration-color: green;
+    color: indigo;
+    text-align-last: center;
+}
+
+p.primero {
+    font-family: "Times New Roman";
+    text-decoration: overline underline red wavy 1px;
+    text-align-last: justify;
+    letter-spacing: 5px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+div.segundo {
+    width: 50%;
+    font-family: "Audiowide", sans-serif;
+    font-size: x-large;
+    max-width: 700px;
+    background-color: powderblue;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+h4 {
+    font-variant: small-caps;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 10;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+a.este:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+a:active {
+    text-decoration: none;
+    color: red;
+}
+p.segundo {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0px 0px 2px red, 2px 2px 5px blue, 2px 2px 5px green;
+    white-space: nowrap;
+}
+ ul {
+    font-size: medium;
+    list-style-image: url("cuadraomorao.png");
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ ol.activate {
+    font-size: x-large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: red;
+    background-color: #04AA6D;
+    border: 2px;
+}
+
+table, th, td {
+    text-align: center;
+  border: 3px dotted red;
+}
