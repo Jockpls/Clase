@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c68f4ff8-c0b4-4c62-9486-2dbc8defdf96" name="Changes" comment="ER continuar desde el 13" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Hecho-en-clase" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jockpls&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jockpls/Clase.git&quot;,
+    &quot;accountId&quot;: &quot;2c59cc98-c8de-48d8-8e02-da0370a0495a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38A3tVK3gSVgpF3bVc8YDvHyYjs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ER1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER10.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ER9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio 9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio5 y 6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicios3 y 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prueba divertida 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alumno2/PycharmProjects/POO/Prueba Divertida 3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/POO/Prueba Divertida 3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+      <recent name="$PROJECT_DIR$/POO/ficheros" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.173" />
+        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c68f4ff8-c0b4-4c62-9486-2dbc8defdf96" name="Changes" comment="" />
+      <created>1768228763140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768228763140</updated>
+      <workItem from="1768228764839" duration="375000" />
+      <workItem from="1768229326602" duration="759000" />
+      <workItem from="1768487240620" duration="13000" />
+      <workItem from="1768487279812" duration="6905000" />
+      <workItem from="1768494301142" duration="98000" />
+      <workItem from="1768494772365" duration="239000" />
+      <workItem from="1768495734697" duration="69000" />
+      <workItem from="1769024025998" duration="10000" />
+      <workItem from="1769024045932" duration="1314000" />
+      <workItem from="1769025769032" duration="36000" />
+      <workItem from="1769090552673" duration="5672000" />
+      <workItem from="1769096274862" duration="3254000" />
+      <workItem from="1769183239519" duration="99000" />
+      <workItem from="1769192649825" duration="1721000" />
+      <workItem from="1769445806976" duration="10000" />
+      <workItem from="1769445877130" duration="521000" />
+      <workItem from="1769526376013" duration="272000" />
+      <workItem from="1769526933471" duration="820000" />
+      <workItem from="1769527797762" duration="2181000" />
+      <workItem from="1769609090945" duration="42000" />
+      <workItem from="1769626588723" duration="2354000" />
+      <workItem from="1769695191166" duration="6519000" />
+      <workItem from="1769701865059" duration="55000" />
+      <workItem from="1769703455243" duration="19000" />
+      <workItem from="1769708028411" duration="24000" />
+      <workItem from="1769798582692" duration="2268000" />
+      <workItem from="1770648528415" duration="9000" />
+      <workItem from="1770735849245" duration="159000" />
+      <workItem from="1770736159334" duration="263000" />
+      <workItem from="1770736459923" duration="4000" />
+      <workItem from="1770736965756" duration="141000" />
+      <workItem from="1770905327095" duration="851000" />
+      <workItem from="1770906218019" duration="3357000" />
+      <workItem from="1770909610961" duration="5853000" />
+      <workItem from="1771256564457" duration="662000" />
+      <workItem from="1771439905871" duration="5277000" />
+      <workItem from="1771510005145" duration="9816000" />
+      <workItem from="1771599387457" duration="343000" />
+    </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <option name="closed" value="true" />
+      <created>1768229086599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768229086599</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primer commit">
+      <option name="closed" value="true" />
+      <created>1768229115850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768229115850</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Primer commit">
+      <option name="closed" value="true" />
+      <created>1768229131222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768229131223</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Inclusión completa">
+      <option name="closed" value="true" />
+      <created>1768229371785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768229371785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ejercicios de">
+      <option name="closed" value="true" />
+      <created>1768494186644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768494186644</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Git ignore">
+      <option name="closed" value="true" />
+      <created>1768494393387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768494393387</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cambio de carpeta">
+      <option name="closed" value="true" />
+      <created>1769024084554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769024084554</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambio de carpeta y creación de dos ejercicios, el segundo de csv no está hecho">
+      <option name="closed" value="true" />
+      <created>1769025800493</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769025800493</updated>
+    </task>
+    <task id="LOCAL-00009" summary="csvs quedan json">
+      <option name="closed" value="true" />
+      <created>1769196443791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1769196443791</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Inicio del intento de prueba divertida">
+      <option name="closed" value="true" />
+      <created>1769446361204</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769446361204</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Continuación del ejercicio, revisar menú, diccionarios,">
+      <option name="closed" value="true" />
+      <created>1769529781955</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769529781955</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Revisión y notas de antonio, comparar con el hehco en casa, importante los dos documentos">
+      <option name="closed" value="true" />
+      <created>1769628934718</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1769628934719</updated>
+    </task>
+    <task id="LOCAL-00013" summary="XML">
+      <option name="closed" value="true" />
+      <created>1770905365898</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770905365898</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ER continuar desde el 13">
+      <option name="closed" value="true" />
+      <created>1771519805354</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771519805354</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/POO/Excpcns" />
+    </ignored-roots>
+    <MESSAGE value="Primer commit" />
+    <MESSAGE value="Inclusión completa" />
+    <MESSAGE value="Ejercicios de" />
+    <MESSAGE value="Git ignore" />
+    <MESSAGE value="Cambio de carpeta" />
+    <MESSAGE value="Cambio de carpeta y creación de dos ejercicios, el segundo de csv no está hecho" />
+    <MESSAGE value="csvs quedan json" />
+    <MESSAGE value="Inicio del intento de prueba divertida" />
+    <MESSAGE value="Continuación del ejercicio, revisar menú, diccionarios," />
+    <MESSAGE value="Revisión y notas de antonio, comparar con el hehco en casa, importante los dos documentos" />
+    <MESSAGE value="XML" />
+    <MESSAGE value="ER continuar desde el 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="ER continuar desde el 13" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Índice1_py$Ejercicio1.coverage" NAME="Ejercicio1 Coverage Results" MODIFIED="1769025180940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER9.coverage" NAME="ER9 Coverage Results" MODIFIED="1771514667254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio_10_py$Ejercicio_10.coverage" NAME="Ejercicio 10 Coverage Results" MODIFIED="1768495793651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio_8.coverage" NAME="Ejercicio 8 Coverage Results" MODIFIED="1768492701784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/xml4_py$xml4.coverage" NAME="xml4 Coverage Results" MODIFIED="1771256575716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/Ejercicio_8_py$Ejercicio_9.coverage" NAME="Ejercicio 9 Coverage Results" MODIFIED="1768494842575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio2.coverage" NAME="Ejercicio2 Coverage Results" MODIFIED="1768488641687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio5.coverage" NAME="Ejercicio5 Coverage Results" MODIFIED="1768491787652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio_10.coverage" NAME="Ejercicio 10 Coverage Results" MODIFIED="1768493592990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio5_py$Ejercicio5.coverage" NAME="Ejercicio5 Coverage Results" MODIFIED="1769098303796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER10.coverage" NAME="ER10 Coverage Results" MODIFIED="1771514881623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Índice1_py$Ejercicio2.coverage" NAME="Ejercicio2 Coverage Results" MODIFIED="1769025184198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/Ejercicio2_py$Ejercicio4.coverage" NAME="Ejercicio4 Coverage Results" MODIFIED="1769096042249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/Ejercicio5_py$Ejercicio6.coverage" NAME="Ejercicio6 Coverage Results" MODIFIED="1769098835137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER5.coverage" NAME="ER5 Coverage Results" MODIFIED="1771444051457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/xml1_py$xml3.coverage" NAME="xml3 Coverage Results" MODIFIED="1770914315541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER11.coverage" NAME="ER11 Coverage Results" MODIFIED="1771517080010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER6.coverage" NAME="ER6 Coverage Results" MODIFIED="1771444381772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio2_py$Ejercicio5.coverage" NAME="Ejercicio5 Coverage Results" MODIFIED="1769096157269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER10_2.coverage" NAME="ER10.2 Coverage Results" MODIFIED="1771516586688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio1.coverage" NAME="Ejercicio1 Coverage Results" MODIFIED="1768488084640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio_8_py$Ejercicio_8.coverage" NAME="Ejercicio 8 Coverage Results" MODIFIED="1768494786929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/xml1_py$xml2.coverage" NAME="xml2 Coverage Results" MODIFIED="1770911263903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio_9.coverage" NAME="Ejercicio 9 Coverage Results" MODIFIED="1768493065770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/xml1_py$xml1.coverage" NAME="xml1 Coverage Results" MODIFIED="1770909960624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/xml1_py$xml4.coverage" NAME="xml4 Coverage Results" MODIFIED="1770915292146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER4.coverage" NAME="ER4 Coverage Results" MODIFIED="1771443735873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/intento_py$intento.coverage" NAME="intento Coverage Results" MODIFIED="1769627099140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Intento divertido 3" />
+    <SUITE FILE_PATH="coverage/Índice1_py$Ejercicios3_y_4.coverage" NAME="Ejercicios3 y 4 Coverage Results" MODIFIED="1769025349213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros 1" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER12.coverage" NAME="ER12 Coverage Results" MODIFIED="1771518908206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER1.coverage" NAME="ER1 Coverage Results" MODIFIED="1771440516191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio2_py$Ejercicio3.coverage" NAME="Ejercicio3 Coverage Results" MODIFIED="1769095516036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER7.coverage" NAME="ER7 Coverage Results" MODIFIED="1771510826392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicios3_y_4.coverage" NAME="Ejercicios3 y 4 Coverage Results" MODIFIED="1768490457345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER7.coverage" NAME="ER7 Coverage Results" MODIFIED="1771445166150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/xml2_py$Ejercicio5.coverage" NAME="Ejercicio5 Coverage Results" MODIFIED="1770906253852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER13.coverage" NAME="ER13 Coverage Results" MODIFIED="1771519719324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/xml2_py$xml2.coverage" NAME="xml2 Coverage Results" MODIFIED="1770909460109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER8.coverage" NAME="ER8 Coverage Results" MODIFIED="1771512239607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER2.coverage" NAME="ER2 Coverage Results" MODIFIED="1771441861843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio_7.coverage" NAME="Ejercicio 7 Coverage Results" MODIFIED="1768493851846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio3.coverage" NAME="Ejercicio3 Coverage Results" MODIFIED="1768489700287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/intento_py$Ejercicio5.coverage" NAME="Ejercicio5 Coverage Results" MODIFIED="1769627093735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/xml2_py$xml1.coverage" NAME="xml1 Coverage Results" MODIFIED="1770906736519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
+    <SUITE FILE_PATH="coverage/Ejercicio2_py$Ejercicio2.coverage" NAME="Ejercicio2 Coverage Results" MODIFIED="1769094658801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/ER7_py$ER3.coverage" NAME="ER3 Coverage Results" MODIFIED="1771513227390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+    <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio5_y_6.coverage" NAME="Ejercicio5 y 6 Coverage Results" MODIFIED="1768493806438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros" />
+    <SUITE FILE_PATH="coverage/xml1_py$Ejercicio5.coverage" NAME="Ejercicio5 Coverage Results" MODIFIED="1770909824239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
+    <SUITE FILE_PATH="coverage/Prueba_divertida_3_py$Prueba_divertida_3.coverage" NAME="Prueba divertida 3 Coverage Results" MODIFIED="1769701464587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Prueba Divertida 3" />
+    <SUITE FILE_PATH="coverage/ER1_py$ER3.coverage" NAME="ER3 Coverage Results" MODIFIED="1771442501783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Expresiones Regulares" />
+  </component>
+</project>
