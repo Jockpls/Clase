@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="restaurante.xsl" type="text/xsl"?>
+<menu>
+    <plato categoria="Entrantes">
+        <nombre_plato>Croquetas</nombre_plato>
+        <descripcion>De jamón ibérico</descripcion>
+        <precio_unitario>12</precio_unitario>
+    </plato>
+    <plato categoria="Entrantes">
+        <nombre_plato>Bravas</nombre_plato>
+        <descripcion>Con salsa picante</descripcion>
+        <precio_unitario>8</precio_unitario>
+    </plato>
+    <plato categoria="Entrantes">
+        <nombre_plato>Ensaladilla</nombre_plato>
+        <descripcion>Casera con atún</descripcion>
+        <precio_unitario>10</precio_unitario>
+    </plato>
+    <plato categoria="Entrantes">
+        <nombre_plato>Calamares</nombre_plato>
+        <descripcion>A la romana</descripcion>
+        <precio_unitario>14</precio_unitario>
+    </plato>
+    <plato categoria="Entrantes">
+        <nombre_plato>Gazpacho</nombre_plato>
+        <descripcion>Andaluz tradicional</descripcion>
+        <precio_unitario>7</precio_unitario>
+    </plato>
+    <plato categoria="Entrantes">
+        <nombre_plato>Provolone</nombre_plato>
+        <descripcion>Al horno con orégano</descripcion>
+        <precio_unitario>11</precio_unitario>
+    </plato>
+    <plato categoria="Entrantes">
+        <nombre_plato>Hummus</nombre_plato>
+        <descripcion>Con pan de pita</descripcion>
+        <precio_unitario>9</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Entrecot</nombre_plato>
+        <descripcion>A la brasa 300g</descripcion>
+        <precio_unitario>22</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Lasaña</nombre_plato>
+        <descripcion>De carne de buey</descripcion>
+        <precio_unitario>15</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Bacalao</nombre_plato>
+        <descripcion>Al pil-pil</descripcion>
+        <precio_unitario>19</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Hamburguesa XL</nombre_plato>
+        <descripcion>Con queso cheddar</descripcion>
+        <precio_unitario>16</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Risotto</nombre_plato>
+        <descripcion>De setas y trufa</descripcion>
+        <precio_unitario>18</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Salmón</nombre_plato>
+        <descripcion>Al horno con verduras</descripcion>
+        <precio_unitario>17</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Paella</nombre_plato>
+        <descripcion>Individual de marisco</descripcion>
+        <precio_unitario>21</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Canelones</nombre_plato>
+        <descripcion>De la abuela</descripcion>
+        <precio_unitario>14</precio_unitario>
+    </plato>
+    <plato categoria="Platos Principales">
+        <nombre_plato>Pollo Asado</nombre_plato>
+        <descripcion>Con finas hierbas</descripcion>
+        <precio_unitario>13</precio_unitario>
+    </plato>
+    <plato categoria="Postres">
+        <nombre_plato>Tarta Queso</nombre_plato>
+        <descripcion>Casera cremosa</descripcion>
+        <precio_unitario>6</precio_unitario>
+    </plato>
+    <plato categoria="Postres">
+        <nombre_plato>Brownie</nombre_plato>
+        <descripcion>Con helado vainilla</descripcion>
+        <precio_unitario>7</precio_unitario>
+    </plato>
+    <plato categoria="Postres">
+        <nombre_plato>Fruta</nombre_plato>
+        <descripcion>De temporada</descripcion>
+        <precio_unitario>4</precio_unitario>
+    </plato>
+    <plato categoria="Postres">
+        <nombre_plato>Flan</nombre_plato>
+        <descripcion>Con nata</descripcion>
+        <precio_unitario>5</precio_unitario>
+    </plato>
+    <plato categoria="Postres">
+        <nombre_plato>Tiramisú</nombre_plato>
+        <descripcion>Receta italiana</descripcion>
+        <precio_unitario>7</precio_unitario>
+    </plato>
+</menu>

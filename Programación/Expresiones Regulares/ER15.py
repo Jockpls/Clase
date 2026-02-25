@@ -3,8 +3,6 @@
 (Opción avanzada: validar que cada bloque esté entre 0 y 255)."""
 import re
 
-from sympy.codegen.ast import continue_
-
 try:
     ip = "392.168.1.1"
     regex = re.search(r"([0-9]{1,3})\W([0-9]{1,3})\W([0-9]{1,3})\W([0-9]{1,3})",ip)

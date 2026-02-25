@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="festival.xsl" type="text/xsl"?>
+<festival>
+    <banda tipo="normal">
+        <nombre_banda>The Indie Kids</nombre_banda>
+        <genero>Rock</genero>
+        <escenario>Norte</escenario>
+        <hora_inicio>18:00</hora_inicio>
+    </banda>
+    <banda tipo="especial">
+        <nombre_banda>Techno Masters</nombre_banda>
+        <genero>Electronic</genero>
+        <escenario>Principal</escenario>
+        <hora_inicio>23:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Jazz Quartet</nombre_banda>
+        <genero>Jazz</genero>
+        <escenario>Bosque</escenario>
+        <hora_inicio>20:15</hora_inicio>
+    </banda>
+    <banda tipo="especial">
+        <nombre_banda>The Rockers</nombre_banda>
+        <genero>Rock</genero>
+        <escenario>Principal</escenario>
+        <hora_inicio>21:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Pop Star</nombre_banda>
+        <genero>Pop</genero>
+        <escenario>Sur</escenario>
+        <hora_inicio>19:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>DJ Moon</nombre_banda>
+        <genero>Techno</genero>
+        <escenario>Bosque</escenario>
+        <hora_inicio>01:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Acoustic Duo</nombre_banda>
+        <genero>Folk</genero>
+        <escenario>Norte</escenario>
+        <hora_inicio>17:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Metal Head</nombre_banda>
+        <genero>Metal</genero>
+        <escenario>Sur</escenario>
+        <hora_inicio>22:00</hora_inicio>
+    </banda>
+    <banda tipo="especial">
+        <nombre_banda>Sinfonía</nombre_banda>
+        <genero>Clásica</genero>
+        <escenario>Principal</escenario>
+        <hora_inicio>19:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Rap King</nombre_banda>
+        <genero>Hip-hop</genero>
+        <escenario>Sur</escenario>
+        <hora_inicio>23:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Funky Town</nombre_banda>
+        <genero>Funk</genero>
+        <escenario>Bosque</escenario>
+        <hora_inicio>18:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Indie Queen</nombre_banda>
+        <genero>Rock</genero>
+        <escenario>Norte</escenario>
+        <hora_inicio>20:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Beat Maker</nombre_banda>
+        <genero>Lo-fi</genero>
+        <escenario>Sur</escenario>
+        <hora_inicio>16:00</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Sax Player</nombre_banda>
+        <genero>Jazz</genero>
+        <escenario>Bosque</escenario>
+        <hora_inicio>17:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Blue Soul</nombre_banda>
+        <genero>Blues</genero>
+        <escenario>Norte</escenario>
+        <hora_inicio>21:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Synth Wave</nombre_banda>
+        <genero>Electronic</genero>
+        <escenario>Sur</escenario>
+        <hora_inicio>00:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Hard Core</nombre_banda>
+        <genero>Metal</genero>
+        <escenario>Principal</escenario>
+        <hora_inicio>16:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Voice Solo</nombre_banda>
+        <genero>Pop</genero>
+        <escenario>Norte</escenario>
+        <hora_inicio>19:30</hora_inicio>
+    </banda>
+    <banda tipo="normal">
+        <nombre_banda>Drum Solo</nombre_banda>
+        <genero>Jazz</genero>
+        <escenario>Bosque</escenario>
+        <hora_inicio>22:30</hora_inicio>
+    </banda>
+    <banda tipo="especial">
+        <nombre_banda>The Legends</nombre_banda>
+        <genero>Pop</genero>
+        <escenario>Principal</escenario>
+        <hora_inicio>22:30</hora_inicio>
+    </banda>
+</festival>

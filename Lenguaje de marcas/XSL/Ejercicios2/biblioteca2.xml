@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="biblioteca.xsl" type="text/xsl"?>
+<biblioteca>
+    <libro isbn="978-01">
+        <titulo_libro>IA para principiantes</titulo_libro>
+        <autor>Ana García</autor>
+        <editorial>Tecno</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+    <libro isbn="978-02">
+        <titulo_libro>Historia del Arte</titulo_libro>
+        <autor>Juan Pérez</autor>
+        <editorial>Classic</editorial>
+        <año_publicacion>2018</año_publicacion>
+    </libro>
+    <libro isbn="978-03">
+        <titulo_libro>Redes Complejas</titulo_libro>
+        <autor>Ana García</autor>
+        <editorial>Tecno</editorial>
+        <año_publicacion>2021</año_publicacion>
+    </libro>
+    <libro isbn="978-04">
+        <titulo_libro>Cocina Moderna</titulo_libro>
+        <autor>Marta Ruiz</autor>
+        <editorial>Vida</editorial>
+        <año_publicacion>2022</año_publicacion>
+    </libro>
+    <libro isbn="978-05">
+        <titulo_libro>Python 101</titulo_libro>
+        <autor>Carlos Soler</autor>
+        <editorial>DevBooks</editorial>
+        <año_publicacion>2023</año_publicacion>
+    </libro>
+    <libro isbn="978-06">
+        <titulo_libro>El Ocaso</titulo_libro>
+        <autor>Juan Pérez</autor>
+        <editorial>Classic</editorial>
+        <año_publicacion>2015</año_publicacion>
+    </libro>
+    <libro isbn="978-07">
+        <titulo_libro>Ciberseguridad</titulo_libro>
+        <autor>Ana García</autor>
+        <editorial>Tecno</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+    <libro isbn="978-08">
+        <titulo_libro>Marketing Digital</titulo_libro>
+        <autor>Elena Blasco</autor>
+        <editorial>Empresa</editorial>
+        <año_publicacion>2019</año_publicacion>
+    </libro>
+    <libro isbn="978-09">
+        <titulo_libro>Diseño UX</titulo_libro>
+        <autor>Elena Blasco</autor>
+        <editorial>Empresa</editorial>
+        <año_publicacion>2021</año_publicacion>
+    </libro>
+    <libro isbn="978-10">
+        <titulo_libro>Astronomía</titulo_libro>
+        <autor>Luis Ramos</autor>
+        <editorial>Ciencia</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+    <libro isbn="978-11">
+        <titulo_libro>Yoga Diario</titulo_libro>
+        <autor>Marta Ruiz</autor>
+        <editorial>Vida</editorial>
+        <año_publicacion>2020</año_publicacion>
+    </libro>
+    <libro isbn="978-12">
+        <titulo_libro>Node.js Avanzado</titulo_libro>
+        <autor>Carlos Soler</autor>
+        <editorial>DevBooks</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+    <libro isbn="978-13">
+        <titulo_libro>Finanzas</titulo_libro>
+        <autor>Pedro Jota</autor>
+        <editorial>Empresa</editorial>
+        <año_publicacion>2022</año_publicacion>
+    </libro>
+    <libro isbn="978-14">
+        <titulo_libro>Poesía reunida</titulo_libro>
+        <autor>Julia Marcos</autor>
+        <editorial>Letras</editorial>
+        <año_publicacion>2017</año_publicacion>
+    </libro>
+    <libro isbn="978-15">
+        <titulo_libro>Sistemas Operativos</titulo_libro>
+        <autor>Ana García</autor>
+        <editorial>Tecno</editorial>
+        <año_publicacion>2023</año_publicacion>
+    </libro>
+    <libro isbn="978-16">
+        <titulo_libro>Medicina hoy</titulo_libro>
+        <autor>Luis Ramos</autor>
+        <editorial>Ciencia</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+    <libro isbn="978-17">
+        <titulo_libro>Repostería</titulo_libro>
+        <autor>Marta Ruiz</autor>
+        <editorial>Vida</editorial>
+        <año_publicacion>2021</año_publicacion>
+    </libro>
+    <libro isbn="978-18">
+        <titulo_libro>Java para expertos</titulo_libro>
+        <autor>Carlos Soler</autor>
+        <editorial>DevBooks</editorial>
+        <año_publicacion>2020</año_publicacion>
+    </libro>
+    <libro isbn="978-19">
+        <titulo_libro>Filosofía</titulo_libro>
+        <autor>Julia Marcos</autor>
+        <editorial>Letras</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+    <libro isbn="978-20">
+        <titulo_libro>Microservicios</titulo_libro>
+        <autor>Ana García</autor>
+        <editorial>DevBooks</editorial>
+        <año_publicacion>2024</año_publicacion>
+    </libro>
+</biblioteca>

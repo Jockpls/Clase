@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="almacen.xsl" type="text/xsl"?>
+<almacen>
+    <producto>
+        <codigo_producto>P01</codigo_producto>
+        <nombre>Ratón</nombre>
+        <stock_actual>5</stock_actual>
+        <proveedor>Logi</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P02</codigo_producto>
+        <nombre>Teclado</nombre>
+        <stock_actual>15</stock_actual>
+        <proveedor>Alpha</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P03</codigo_producto>
+        <nombre>Monitor</nombre>
+        <stock_actual>3</stock_actual>
+        <proveedor>Visual</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P04</codigo_producto>
+        <nombre>Cable HDMI</nombre>
+        <stock_actual>40</stock_actual>
+        <proveedor>Connect</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P05</codigo_producto>
+        <nombre>Webcam</nombre>
+        <stock_actual>8</stock_actual>
+        <proveedor>Logi</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P06</codigo_producto>
+        <nombre>Silla Pro</nombre>
+        <stock_actual>2</stock_actual>
+        <proveedor>Comfort</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P07</codigo_producto>
+        <nombre>Alfombrilla</nombre>
+        <stock_actual>25</stock_actual>
+        <proveedor>Alpha</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P08</codigo_producto>
+        <nombre>Cascos</nombre>
+        <stock_actual>12</stock_actual>
+        <proveedor>Sound</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P09</codigo_producto>
+        <nombre>Micro</nombre>
+        <stock_actual>4</stock_actual>
+        <proveedor>Sound</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P10</codigo_producto>
+        <nombre>Disco SSD</nombre>
+        <stock_actual>30</stock_actual>
+        <proveedor>Memory</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P11</codigo_producto>
+        <nombre>RAM 16GB</nombre>
+        <stock_actual>7</stock_actual>
+        <proveedor>Memory</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P12</codigo_producto>
+        <nombre>Torre ATX</nombre>
+        <stock_actual>6</stock_actual>
+        <proveedor>Alpha</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P13</codigo_producto>
+        <nombre>Fuente 750W</nombre>
+        <stock_actual>11</stock_actual>
+        <proveedor>Power</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P14</codigo_producto>
+        <nombre>Ventilador</nombre>
+        <stock_actual>9</stock_actual>
+        <proveedor>Cooler</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P15</codigo_producto>
+        <nombre>Pasta Térmica</nombre>
+        <stock_actual>50</stock_actual>
+        <proveedor>Cooler</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P16</codigo_producto>
+        <nombre>USB 64GB</nombre>
+        <stock_actual>18</stock_actual>
+        <proveedor>Connect</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P17</codigo_producto>
+        <nombre>Altavoces</nombre>
+        <stock_actual>5</stock_actual>
+        <proveedor>Sound</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P18</codigo_producto>
+        <nombre>Adaptador C</nombre>
+        <stock_actual>22</stock_actual>
+        <proveedor>Connect</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P19</codigo_producto>
+        <nombre>Luz LED</nombre>
+        <stock_actual>1</stock_actual>
+        <proveedor>Visual</proveedor>
+    </producto>
+    <producto>
+        <codigo_producto>P20</codigo_producto>
+        <nombre>Soporte Brazo</nombre>
+        <stock_actual>10</stock_actual>
+        <proveedor>Comfort</proveedor>
+    </producto>
+</almacen>
