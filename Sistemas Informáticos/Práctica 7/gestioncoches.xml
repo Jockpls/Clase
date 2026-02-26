@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+    <coche tipo='utilitario'>
+        <matricula>9772 BRR</matricula>
+        <marca>Opel</marca>
+        <precio>26.32</precio>
+    </coche>
+    <coche tipo='premium'>
+        <matricula>1234 ABC</matricula>
+        <marca>Ferrari</marca>
+        <precio>250</precio>
+    </coche>
+</concesionario>
