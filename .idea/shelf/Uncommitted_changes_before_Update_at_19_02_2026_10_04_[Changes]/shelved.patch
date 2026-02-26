@@ -1,0 +1,103 @@
+Index: POO/ficheros/XML/xml4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import xml.etree.ElementTree as ET\r\nfrom xml.dom import minidom\r\n\r\nEmpresa = \"empleados.xml\"\r\ntree = ET.parse(Empresa)\r\nroot = tree.getroot()\r\n\r\ndef showdept(departmento):\r\n    for root.attrib['departamento'] in empleado\r\n\r\nemployee = ET.Element('empleado')\r\nET.Element.attrib['ID'] = '3'\r\nET.Element.attrib['Departamento'] = \"IT\"\r\nET.SubElement(employee, 'nombre').text = 'Elver Galarga'\r\nET.SubElement(employee, 'salario').text = '1896'\r\n\r\nTree = ET.ElementTree(root)\r\n\r\nxml_bytes = ET.tostring(root, encoding='utf-8')\r\nxml_pretty = minidom.parseString(xml_bytes).toprettyxml()\r\nwith open('productos.xml', 'w') as xml_file:\r\n    xml_file.write(xml_pretty)\r\n\r\ndepartmento = input('¿De qué departamento desea ver los empleados?')\r\nshowdept(departmento)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/xml4.py b/POO/ficheros/XML/xml4.py
+--- a/POO/ficheros/XML/xml4.py	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/POO/ficheros/XML/xml4.py	(date 1771080488281)
+@@ -1,20 +1,24 @@
+ import xml.etree.ElementTree as ET
+ from xml.dom import minidom
+ 
+-Empresa = "empleados.xml"
+-tree = ET.parse(Empresa)
++archivo = "empleados.xml"
++tree = ET.parse(archivo)
+ root = tree.getroot()
+ 
+ def showdept(departmento):
+-    for root.attrib['departamento'] in empleado
++    print(f"\nResultados para {departmento}")
++    for emp in root.findall('empleado'):
++        if emp.get('departamento') == departmento:
++            nombre = emp.find('nombre').text
++            salario = emp.find('salario').text
++            print(f"\nNombre: {nombre} (ID:{emp.get('id')}): {salario}€ )")
+ 
+ employee = ET.Element('empleado')
+-ET.Element.attrib['ID'] = '3'
+-ET.Element.attrib['Departamento'] = "IT"
++employee.set('id','3')
++employee.set('departamento', "IT")
+ ET.SubElement(employee, 'nombre').text = 'Elver Galarga'
+ ET.SubElement(employee, 'salario').text = '1896'
+-
+-Tree = ET.ElementTree(root)
++root.append(employee)
+ 
+ xml_bytes = ET.tostring(root, encoding='utf-8')
+ xml_pretty = minidom.parseString(xml_bytes).toprettyxml()
+Index: .idea/PycharmProjects.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/.venv\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.13 (PycharmProjects)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/PycharmProjects.iml b/.idea/PycharmProjects.iml
+--- a/.idea/PycharmProjects.iml	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/.idea/PycharmProjects.iml	(date 1771079017247)
+@@ -4,7 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Python 3.13 (PycharmProjects)" jdkType="Python SDK" />
++    <orderEntry type="jdk" jdkName="Python 3.13" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="PyDocumentationSettings">
+Index: POO/ficheros/XML/xml5.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/xml5.py b/POO/ficheros/XML/xml5.py
+new file mode 100644
+--- /dev/null	(date 1771081515471)
++++ b/POO/ficheros/XML/xml5.py	(date 1771081515471)
+@@ -0,0 +1,14 @@
++import xml.etree.ElementTree as ET
++
++
++archivo = 'tienda.xml'
++tree = ET.parse(archivo)
++root = tree.getroot()
++
++for obj in root.findall('producto'):
++    cantidad = obj.get('stock')
++    if cantidad == '0':
++        root.remove(obj)
++    print(obj)
++
++tree.write(archivo)
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Black\">\r\n    <option name=\"sdkName\" value=\"Python 3.12\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.13 (PycharmProjects)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/.idea/misc.xml	(date 1771079017251)
+@@ -3,5 +3,5 @@
+   <component name="Black">
+     <option name="sdkName" value="Python 3.12" />
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (PycharmProjects)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file

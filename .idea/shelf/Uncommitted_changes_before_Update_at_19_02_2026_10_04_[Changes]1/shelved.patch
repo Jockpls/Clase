@@ -1,0 +1,203 @@
+Index: POO/ficheros/Ficheros  csv/CSV/Ejercicio7.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import csv\r\n\r\nwith open('alumnos2.csv') as linea:\r\n    linea = csv.DictReader(linea, delimiter = ';')\r\n    total = 0\r\n    edadmedia = 0\r\n    for row in linea:\r\n        try:\r\n            edad = int(row['Edad'])\r\n            edadmedia += edad\r\n            total += 1\r\n        except ValueError:\r\n            print('Fila invalida, continuamos')\r\n            continue\r\n\r\n    edadmedia = float(edadmedia/total)\r\n    print(f'La edad media es {edadmedia}')\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/Ficheros  csv/CSV/Ejercicio7.py b/POO/ficheros/Ficheros  csv/CSV/Ejercicio7.py
+--- a/POO/ficheros/Ficheros  csv/CSV/Ejercicio7.py	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/POO/ficheros/Ficheros  csv/CSV/Ejercicio7.py	(date 1771362376511)
+@@ -1,19 +1,27 @@
+ import csv
++from collections import Counter
+ 
+-with open('alumnos2.csv') as linea:
+-    linea = csv.DictReader(linea, delimiter = ';')
+-    total = 0
+-    edadmedia = 0
++total = 0
++edadmedia = 0
++cursos = Counter()
++with open('alumnos2.csv') as linea:
++    linea = csv.DictReader(linea, delimiter = ';', quotechar='"')
+     for row in linea:
+         try:
+             edad = int(row['Edad'])
+-            edadmedia += edad
+-            total += 1
+         except ValueError:
+-            print('Fila invalida, continuamos')
++            print(f'{row} invalida, continuamos')
+             continue
+-
++        edadmedia += edad
++        total += 1
++        cursos[row["Curso"]] += 1
++if total == 0:
++    print('No hay filas válidas')
++else:
+     edadmedia = float(edadmedia/total)
++    curso_mas_frecuente =cursos.most_common(1)[0][0]
++    print(f'Filas válidas: {total}')
++    print(f'Curso más frecuente: {curso_mas_frecuente}')
+     print(f'La edad media es {edadmedia}')
+ 
+ 
+Index: POO/ficheros/Ficheros  csv/JSON/JSON6.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import json\r\n\r\ntry:\r\n    with open('datos.json', 'r') as file:\r\n        data = json.load(file)\r\nexcept (FileNotFoundError, json.JSONDecodeError):\r\n    print('Error al abrir el archivo')\r\n\r\nif data:\r\n    mail = input('Ingrese el correo: ')\r\n    for usuario in data:\r\n        if usuario.get('Email') == mail:\r\n            print(usuario)\r\n        else:\r\n            print('No se encontró al usuario')
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/Ficheros  csv/JSON/JSON6.py b/POO/ficheros/Ficheros  csv/JSON/JSON6.py
+--- a/POO/ficheros/Ficheros  csv/JSON/JSON6.py	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/POO/ficheros/Ficheros  csv/JSON/JSON6.py	(date 1771360180125)
+@@ -11,5 +11,6 @@
+     for usuario in data:
+         if usuario.get('Email') == mail:
+             print(usuario)
++            break
+         else:
+             print('No se encontró al usuario')
+\ No newline at end of file
+Index: POO/ficheros/XML/tienda.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/tienda.xml b/POO/ficheros/XML/tienda.xml
+new file mode 100644
+--- /dev/null	(date 1771081525331)
++++ b/POO/ficheros/XML/tienda.xml	(date 1771081525331)
+@@ -0,0 +1,5 @@
++<tienda>
++    <producto stock="5">
++        <nombre>Impresora</nombre>
++    </producto>
++</tienda>
+\ No newline at end of file
+Index: POO/ficheros/XML/xml6.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/xml6.py b/POO/ficheros/XML/xml6.py
+new file mode 100644
+--- /dev/null	(date 1771082259987)
++++ b/POO/ficheros/XML/xml6.py	(date 1771082259987)
+@@ -0,0 +1,23 @@
++import xml.etree.ElementTree as ET
++
++archivo = 'clientes.xml'
++tree = ET.parse(archivo)
++root = tree.getroot()
++
++
++
++def opciones():
++    print(f"--- Menú ---\n1. Añadir cliente\n2. Listar clientes\n3. Buscar cliente\n4. Eliminar cliente\n5. Salir')
++
++def menu():
++    while opciones != "5":
++    opciones()
++    option = input('¿Qué desea hacer?')
++        match option:
++            case 1:
++
++            case 2:
++
++            case 3:
++
++            case 4:
+Index: POO/ficheros/XML/clientes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/clientes.xml b/POO/ficheros/XML/clientes.xml
+new file mode 100644
+--- /dev/null	(date 1771081747317)
++++ b/POO/ficheros/XML/clientes.xml	(date 1771081747317)
+@@ -0,0 +1,7 @@
++<clientes>
++    <cliente>
++        <dni>12345678A</dni>
++        <nombre>Juan</nombre>
++        <email>juan@email.com</email>
++    </cliente>
++</clientes>
+Index: POO/ficheros/XML/empleados.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><empresa>\r\n    <empleado id=\"1\" departamento=\"Ventas\">\r\n        <nombre>Laura</nombre>\r\n        <salario>1500</salario>\r\n    </empleado>\r\n    <empleado id=\"2\" departamento=\"IT\">\r\n        <nombre>Carlos</nombre>\r\n        <salario>2000</salario>\r\n    </empleado>\r\n</empresa
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/empleados.xml b/POO/ficheros/XML/empleados.xml
+--- a/POO/ficheros/XML/empleados.xml	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/POO/ficheros/XML/empleados.xml	(date 1771080333093)
+@@ -7,4 +7,4 @@
+         <nombre>Carlos</nombre>
+         <salario>2000</salario>
+     </empleado>
+-</empresa
+\ No newline at end of file
++</empresa>
+\ No newline at end of file
+Index: POO/ficheros/XML/productos.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><Productos>\r\n  <Producto>\r\n    <Nombre>Teclado</Nombre>\r\n    <Precio>22.0</Precio>\r\n  </Producto>\r\n  <Producto>\r\n    <Nombre>Raton</Nombre>\r\n    <Precio>11.0</Precio>\r\n  </Producto>\r\n</Productos>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO/ficheros/XML/productos.xml b/POO/ficheros/XML/productos.xml
+--- a/POO/ficheros/XML/productos.xml	(revision acba70bd7a27c05f001a912c7cf5bbe70a690d8d)
++++ b/POO/ficheros/XML/productos.xml	(date 1771080496081)
+@@ -1,10 +1,33 @@
+-<Productos>
+-  <Producto>
+-    <Nombre>Teclado</Nombre>
+-    <Precio>22.0</Precio>
+-  </Producto>
+-  <Producto>
+-    <Nombre>Raton</Nombre>
+-    <Precio>11.0</Precio>
+-  </Producto>
+-</Productos>
+\ No newline at end of file
++<?xml version="1.0" ?>
++<empresa>
++	
++    
++	<empleado id="1" departamento="Ventas">
++		
++        
++		<nombre>Laura</nombre>
++		
++        
++		<salario>1500</salario>
++		
++    
++	</empleado>
++	
++    
++	<empleado id="2" departamento="IT">
++		
++        
++		<nombre>Carlos</nombre>
++		
++        
++		<salario>2000</salario>
++		
++    
++	</empleado>
++	
++
++	<empleado id="3" departamento="IT">
++		<nombre>Elver Galarga</nombre>
++		<salario>1896</salario>
++	</empleado>
++</empresa>
