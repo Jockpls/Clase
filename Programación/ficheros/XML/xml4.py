@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-def showdept(departmento):
+def showdept(root, departmento):
     print(f"\nResultados para {departmento}")
     for emp in root.findall('empleado'):
         if emp.get('departamento') == departmento:
@@ -26,8 +26,8 @@ def main():
     with open('productos.xml', 'w') as xml_file:
         xml_file.write(xml_pretty)
 
-    departmento = input('¿De qué departamento desea ver los empleados?')
-    showdept(departmento)
+    departmento = input('¿De qué departamento desea ver los empleados? ')
+    showdept(root, departmento)
 
 if __name__ == "__main__":
     main()
