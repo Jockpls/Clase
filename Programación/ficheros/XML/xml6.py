@@ -43,7 +43,7 @@ def main():
         print('Cliente añadido con exito')
 
     def opciones():
-        print(f"--- Menú ---\n1. Añadir cliente\n2. Listar clientes\n3. Buscar cliente\n4. Eliminar cliente\n5. Salir')
+        print(f"--- Menú ---\n1. Añadir cliente\n2. Listar clientes\n3. Buscar cliente\n4. Eliminar cliente\n5. Salir")
 
     def menu():
         while option != "5":

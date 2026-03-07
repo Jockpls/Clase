@@ -1,22 +1,8 @@
 {
-    "Utilitario": {
-        "dni": "45944022G",
-        "matricula": "9772 BRR",
-        "fecha_inicio": "2024-06-01",
-        "fecha_fin": "2024-06-30",
-        "precio_dia": 26.32,
-        "precio_final": 789.6
-    },
-    "Premium": {
-        "dni": "45944022G",
-        "matricula": "1234 ABC",
-        "Extras": {
-            "GPS": 20, 
-            "Silla de niño": 20
-        },
-        "fecha_inicio": "2024-07-01",
-        "fecha_fin": "2024-07-07",
-        "precio_dia": 250,
-        "precio_final": 2030
-    }
+    "cliente": "45944022G",
+    "vehiculo": "9772BRR",
+    "fecha_inicio": "2026-03-07",
+    "fecha_fin": "2026-04-15",
+    "precio_final": 1026.48,
+    "extras": {}
 }
