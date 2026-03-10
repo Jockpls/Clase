@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="portfolio3.xsl"?>
+<portfolio>
+    <foto tecnica="Color">
+        <titulo>Amanecer Sierra</titulo>
+        <fecha>2025-01-05</fecha>
+        <url>https://picsum.photos/id/10/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Calle Silenciosa</titulo>
+        <fecha>2026-02-10</fecha>
+        <url>https://picsum.photos/id/11/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Mercado Central</titulo>
+        <fecha>2025-03-12</fecha>
+        <url>https://picsum.photos/id/12/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Bosque Profundo</titulo>
+        <fecha>2025-04-20</fecha>
+        <url>https://picsum.photos/id/13/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Mirada Antigua</titulo>
+        <fecha>2026-01-15</fecha>
+        <url>https://picsum.photos/id/14/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Océano Bravo</titulo>
+        <fecha>2025-06-01</fecha>
+        <url>https://picsum.photos/id/15/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Noche Urbana</titulo>
+        <fecha>2025-07-22</fecha>
+        <url>https://picsum.photos/id/16/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Texturas Roca</titulo>
+        <fecha>2025-08-30</fecha>
+        <url>https://picsum.photos/id/17/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Vía Láctea</titulo>
+        <fecha>2025-09-05</fecha>
+        <url>https://picsum.photos/id/18/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Camino al Sur</titulo>
+        <fecha>2025-10-10</fecha>
+        <url>https://picsum.photos/id/19/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Bicicleta Oxidada</titulo>
+        <fecha>2026-02-20</fecha>
+        <url>https://picsum.photos/id/20/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Desierto Rojo</titulo>
+        <fecha>2025-11-15</fecha>
+        <url>https://picsum.photos/id/21/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Reflejos de Cristal</titulo>
+        <fecha>2025-12-01</fecha>
+        <url>https://picsum.photos/id/22/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Puente Viejo</titulo>
+        <fecha>2026-01-02</fecha>
+        <url>https://picsum.photos/id/23/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Cosecha de Otoño</titulo>
+        <fecha>2025-10-25</fecha>
+        <url>https://picsum.photos/id/24/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Luces de Navidad</titulo>
+        <fecha>2025-12-24</fecha>
+        <url>https://picsum.photos/id/25/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Soledad</titulo>
+        <fecha>2026-02-25</fecha>
+        <url>https://picsum.photos/id/26/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Valle Escondido</titulo>
+        <fecha>2025-05-30</fecha>
+        <url>https://picsum.photos/id/27/300/200</url>
+    </foto>
+    <foto tecnica="Blanco y Negro">
+        <titulo>Escaleras Infinitas</titulo>
+        <fecha>2026-01-20</fecha>
+        <url>https://picsum.photos/id/28/300/200</url>
+    </foto>
+    <foto tecnica="Color">
+        <titulo>Cena con Vistas</titulo>
+        <fecha>2025-08-14</fecha>
+        <url>https://picsum.photos/id/29/300/200</url>
+    </foto>
+</portfolio>

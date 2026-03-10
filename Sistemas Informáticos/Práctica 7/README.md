@@ -1,4 +1,4 @@
-﻿Programa gestor de concesionario.
+  Programa gestor de concesionario.
 
 El propósito principal del programa es organizar y gestionar los alquileres de un concesionario, gestionados con ficheros XML para almacenar los datos de manera local y poder acceder de manera sencilla desde el programa principal a los datos.
 

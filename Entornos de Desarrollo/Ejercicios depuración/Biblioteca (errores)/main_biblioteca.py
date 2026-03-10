@@ -16,6 +16,8 @@ def main():
         bib.prestar_libro("123-4-56-78901-2")
     except RuntimeError as e:
         print(e)
+    except KeyError as e:
+        print(e)
 
     # Devolución
     bib.devolver_libro("123-4-56-78901-2")

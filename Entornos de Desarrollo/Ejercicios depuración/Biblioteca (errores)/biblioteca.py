@@ -5,7 +5,6 @@ class Biblioteca:
         self.catalogo = {}
 
     def registrar_libro(self, libro: Libro):
-
         self.catalogo[libro.isbn] = libro
 
     def prestar_libro(self, isbn: str):
@@ -13,7 +12,6 @@ class Biblioteca:
         if libro is None:
             raise KeyError("Libro no encontrado")
         if not libro.disponible():
-
             raise RuntimeError("No hay copias disponibles")
         libro.prestar()
 

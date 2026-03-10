@@ -6,13 +6,10 @@ class Libro:
         self.copias = copias
 
     def prestar(self):
-
         self.copias -= 1
 
     def devolver(self):
-
-        self.copias += 2
+        self.copias += 1
 
     def disponible(self):
-
-        return self.copias == 0
+        return self.copias > 0

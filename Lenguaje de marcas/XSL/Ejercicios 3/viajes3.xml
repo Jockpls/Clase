@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<muro_viajes>
+    <post>
+        <usuario>@ana_vlc</usuario>
+        <pais>España</pais>
+        <comentario>La Alhambra es mágica.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@lucas_trek</usuario>
+        <pais>España</pais>
+        <comentario>Ruta por los Pirineos algo dura.</comentario>
+        <puntuacion>4</puntuacion>
+    </post>
+    <post>
+        <usuario>@globetrotter</usuario>
+        <pais>Japón</pais>
+        <comentario>Tokio nunca duerme.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@foodie_travel</usuario>
+        <pais>Italia</pais>
+        <comentario>Pizza en Nápoles, un sueño.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@marc_explorer</usuario>
+        <pais>Islandia</pais>
+        <comentario>Mucho frío pero auroras increíbles.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@sara_trip</usuario>
+        <pais>Portugal</pais>
+        <comentario>Lisboa y sus tranvías.</comentario>
+        <puntuacion>3</puntuacion>
+    </post>
+    <post>
+        <usuario>@nomad_soul</usuario>
+        <pais>Marruecos</pais>
+        <comentario>Perdido en el zoco de Marrakech.</comentario>
+        <puntuacion>4</puntuacion>
+    </post>
+    <post>
+        <usuario>@pablo_surf</usuario>
+        <pais>Australia</pais>
+        <comentario>Olas gigantes en Byron Bay.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@marta_maps</usuario>
+        <pais>Francia</pais>
+        <comentario>Vistas desde el Sacré-Cœur.</comentario>
+        <puntuacion>4</puntuacion>
+    </post>
+    <post>
+        <usuario>@viajero_cordobes</usuario>
+        <pais>España</pais>
+        <comentario>Córdoba en mayo es insuperable.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@ocean_lover</usuario>
+        <pais>Maldivas</pais>
+        <comentario>Agua cristalina.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@historia_viva</usuario>
+        <pais>Grecia</pais>
+        <comentario>El Partenón es imponente.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@city_hunter</usuario>
+        <pais>USA</pais>
+        <comentario>Times Square es abrumador.</comentario>
+        <puntuacion>3</puntuacion>
+    </post>
+    <post>
+        <usuario>@wild_life</usuario>
+        <pais>Kenia</pais>
+        <comentario>Safari fotográfico inolvidable.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@urban_sketch</usuario>
+        <pais>Alemania</pais>
+        <comentario>Berlín y su arte callejero.</comentario>
+        <puntuacion>4</puntuacion>
+    </post>
+    <post>
+        <usuario>@coffee_fan</usuario>
+        <pais>Colombia</pais>
+        <comentario>El mejor café en el Eje Cafetero.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@mount_man</usuario>
+        <pais>Suiza</pais>
+        <comentario>Alpes imponentes.</comentario>
+        <puntuacion>4</puntuacion>
+    </post>
+    <post>
+        <usuario>@beach_vibes</usuario>
+        <pais>México</pais>
+        <comentario>Tacos y playa en Tulum.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+    <post>
+        <usuario>@k_pop_fan</usuario>
+        <pais>Corea del Sur</pais>
+        <comentario>Seúl es pura energía.</comentario>
+        <puntuacion>4</puntuacion>
+    </post>
+    <post>
+        <usuario>@pampa_soul</usuario>
+        <pais>Argentina</pais>
+        <comentario>Asado en Buenos Aires.</comentario>
+        <puntuacion>5</puntuacion>
+    </post>
+</muro_viajes>

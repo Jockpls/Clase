@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d97eaa-324d-48b1-8e4f-e35a48b9c401" name="Changes" comment="Cambios menores">
-      <change afterPath="$PROJECT_DIR$/Programación/Expresiones Regulares/DNI.py" afterDir="false" />
+    <list default="true" id="d0d97eaa-324d-48b1-8e4f-e35a48b9c401" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Daw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Daw.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2026_10_04_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2026_10_04__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programación/ficheros/XML/xml6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programación/ficheros/XML/xml6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/Gestión de concesionario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/Gestión de concesionario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/gestionalquiler.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/gestionalquiler.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/gestionclientes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/gestionclientes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/gestioncoches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/gestioncoches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)/biblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)/biblioteca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)/libro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)/libro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)/main_biblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)/main_biblioteca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,54 +54,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.DNI.executor": "Run",
-    "Python.Ejercicio2.executor": "Run",
-    "Python.Ejercicio4.executor": "Run",
-    "Python.Ejercicio5.executor": "Run",
-    "Python.Ejercicio6.executor": "Run",
-    "Python.Ejercicio7.executor": "Run",
-    "Python.Gestión de concesionario.executor": "Run",
-    "Python.JSON1.executor": "Run",
-    "Python.JSON2.executor": "Run",
-    "Python.JSON3.executor": "Run",
-    "Python.JSON4.executor": "Run",
-    "Python.JSON5.executor": "Run",
-    "Python.JSON6.executor": "Run",
-    "Python.JSON7.executor": "Run",
-    "Python.JSON8.executor": "Run",
-    "Python.Prueba divertida 3 José Carlos Díaz Lozano.executor": "Run",
-    "Python.intento.executor": "Run",
-    "Python.xml2.executor": "Run",
-    "Python.xml4.executor": "Debug",
-    "Python.xml5.executor": "Run",
-    "Python.xml6.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/josec/Desktop/Daw/Clase/Clase/POO/ficheros/Ficheros  csv/JSON",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "settings.editor.splitter.proportion": "0.29622132",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in pruebas_biblioteca.py.executor&quot;: &quot;Coverage&quot;,
+    &quot;Python.DNI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gestión de concesionario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.JSON8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prueba divertida 3 José Carlos Díaz Lozano.executor&quot;: &quot;Run&quot;,
+    &quot;Python.biblioteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_biblioteca.executor&quot;: &quot;Coverage&quot;,
+    &quot;Python.xml2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.xml5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml6.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josec/Desktop/Daw/Clase/Clase/POO/ficheros/Ficheros  csv/JSON&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.29622132&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\josec\Desktop\Daw\Clase\Clase\POO\ficheros\Ficheros  csv\JSON" />
@@ -341,7 +339,11 @@
       <workItem from="1772096119674" duration="2373000" />
       <workItem from="1772643232329" duration="4624000" />
       <workItem from="1772707162622" duration="4569000" />
-      <workItem from="1772878305792" duration="8807000" />
+      <workItem from="1772878305792" duration="9115000" />
+      <workItem from="1773047339363" duration="8346000" />
+      <workItem from="1773134478502" duration="27000" />
+      <workItem from="1773135043113" duration="600000" />
+      <workItem from="1773135864873" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="Lo que tenia que haber hecho ayer">
       <option name="closed" value="true" />
@@ -407,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772096181770</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalización del programa de sistemas">
+      <option name="closed" value="true" />
+      <created>1772887440887</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772887440887</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +441,8 @@
     <MESSAGE value="Se añaden ficheros para subir en clase los ejercicios" />
     <MESSAGE value="Terminar xml6" />
     <MESSAGE value="Cambios menores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios menores" />
+    <MESSAGE value="Finalización del programa de sistemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalización del programa de sistemas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio2.coverage" NAME="Ejercicio2 Coverage Results" MODIFIED="1771847299112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programación/ficheros/Ficheros  csv/CSV" />
@@ -442,6 +453,7 @@
     <SUITE FILE_PATH="coverage/intento_py$intento.coverage" NAME="intento Coverage Results" MODIFIED="1769594615446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/Intento divertido 3" />
     <SUITE FILE_PATH="coverage/xml4_py$xml5.coverage" NAME="xml5 Coverage Results" MODIFIED="1771081525255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
     <SUITE FILE_PATH="coverage/Prueba_divertida_3_José_Carlos_Díaz_Lozano_py$Prueba_divertida_3_José_Carlos_Díaz_Lozano.coverage" NAME="Prueba divertida 3 José Carlos Díaz Lozano Coverage Results" MODIFIED="1772095827415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programación/Prueba Divertida 3" />
+    <SUITE FILE_PATH="coverage/biblioteca_py$biblioteca.coverage" NAME="biblioteca Coverage Results" MODIFIED="1773056746355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)" />
     <SUITE FILE_PATH="coverage/JSON2_py$JSON2.coverage" NAME="JSON2 Coverage Results" MODIFIED="1770202191636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/JSON" />
     <SUITE FILE_PATH="coverage/ER16_py$xml6.coverage" NAME="xml6 Coverage Results" MODIFIED="1772097610084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programación/ficheros/XML" />
     <SUITE FILE_PATH="coverage/xml6_py$xml6.coverage" NAME="xml6 Coverage Results" MODIFIED="1771497560275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
@@ -454,13 +466,15 @@
     <SUITE FILE_PATH="coverage/Gestión_de_concesionario_py$xml2.coverage" NAME="xml2 Coverage Results" MODIFIED="1772883585979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programación/ficheros/XML" />
     <SUITE FILE_PATH="coverage/Ejercicio7_py$Ejercicio7.coverage" NAME="Ejercicio7 Coverage Results" MODIFIED="1769768511079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv" />
     <SUITE FILE_PATH="coverage/JSON6_py$Ejercicio7.coverage" NAME="Ejercicio7 Coverage Results" MODIFIED="1771362376516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/CSV" />
-    <SUITE FILE_PATH="coverage/Gestión_de_concesionario_py$Gestión_de_concesionario.coverage" NAME="Gestión de concesionario Coverage Results" MODIFIED="1772887060283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7" />
+    <SUITE FILE_PATH="coverage/Gestión_de_concesionario_py$Gestión_de_concesionario.coverage" NAME="Gestión de concesionario Coverage Results" MODIFIED="1772887348420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistemas Informáticos/Práctica 7" />
     <SUITE FILE_PATH="coverage/JSON2_py$JSON1.coverage" NAME="JSON1 Coverage Results" MODIFIED="1770202429082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/JSON" />
     <SUITE FILE_PATH="coverage/JSON7_py$JSON7.coverage" NAME="JSON7 Coverage Results" MODIFIED="1770291620157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/Pruebas" />
     <SUITE FILE_PATH="coverage/Ejercicio7_py$JSON1.coverage" NAME="JSON1 Coverage Results" MODIFIED="1770117091720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/JSON" />
+    <SUITE FILE_PATH="coverage/biblioteca_py$main_biblioteca.coverage" NAME="main_biblioteca Coverage Results" MODIFIED="1773056811864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)" />
     <SUITE FILE_PATH="coverage/Ejercicio1_py$Ejercicio4.coverage" NAME="Ejercicio4 Coverage Results" MODIFIED="1771847673057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programación/ficheros/Ficheros  csv/CSV" />
     <SUITE FILE_PATH="coverage/xml4_py$xml6.coverage" NAME="xml6 Coverage Results" MODIFIED="1771081901150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/XML" />
     <SUITE FILE_PATH="coverage/JSON7_py$JSON8.coverage" NAME="JSON8 Coverage Results" MODIFIED="1770292548447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/Pruebas" />
+    <SUITE FILE_PATH="coverage/biblioteca_py$.coverage" NAME=" Coverage Results" MODIFIED="1773056828547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)" />
     <SUITE FILE_PATH="coverage/JSON2_py$JSON4.coverage" NAME="JSON4 Coverage Results" MODIFIED="1770204709530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/JSON" />
     <SUITE FILE_PATH="coverage/JSON5_py$JSON7.coverage" NAME="JSON7 Coverage Results" MODIFIED="1770291315782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/Pruebas" />
     <SUITE FILE_PATH="coverage/JSON6_py$JSON6.coverage" NAME="JSON6 Coverage Results" MODIFIED="1771360180136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO/ficheros/Ficheros  csv/JSON" />

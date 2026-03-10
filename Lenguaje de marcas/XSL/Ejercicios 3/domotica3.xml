@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hogar>
+    <dispositivo estado="encendido">
+        <nombre>Aire Salón</nombre>
+        <ubicacion>Salón</ubicacion>
+        <consumo_w>1200</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>Lámpara Cocina</nombre>
+        <ubicacion>Cocina</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Nevera</nombre>
+        <ubicacion>Cocina</ubicacion>
+        <consumo_w>80</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>PC Gamer</nombre>
+        <ubicacion>Estudio</ubicacion>
+        <consumo_w>450</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>TV Dormitorio</nombre>
+        <ubicacion>Dormitorio</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Cargador Coche</nombre>
+        <ubicacion>Garaje</ubicacion>
+        <consumo_w>3000</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Router Wi-Fi</nombre>
+        <ubicacion>Pasillo</ubicacion>
+        <consumo_w>15</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>Horno</nombre>
+        <ubicacion>Cocina</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Altavoz Inteligente</nombre>
+        <ubicacion>Salón</ubicacion>
+        <consumo_w>5</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Purificador Aire</nombre>
+        <ubicacion>Dormitorio</ubicacion>
+        <consumo_w>40</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>Microondas</nombre>
+        <ubicacion>Cocina</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Lavadora</nombre>
+        <ubicacion>Lavadero</ubicacion>
+        <consumo_w>500</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>Cafetera</nombre>
+        <ubicacion>Cocina</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Monitor 1</nombre>
+        <ubicacion>Estudio</ubicacion>
+        <consumo_w>25</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Monitor 2</nombre>
+        <ubicacion>Estudio</ubicacion>
+        <consumo_w>25</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>Estufa Baño</nombre>
+        <ubicacion>Baño</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Cámara Entrada</nombre>
+        <ubicacion>Exterior</ubicacion>
+        <consumo_w>10</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Cámara Jardín</nombre>
+        <ubicacion>Exterior</ubicacion>
+        <consumo_w>10</consumo_w>
+    </dispositivo>
+    <dispositivo estado="apagado">
+        <nombre>Secador</nombre>
+        <ubicacion>Baño</ubicacion>
+        <consumo_w>0</consumo_w>
+    </dispositivo>
+    <dispositivo estado="encendido">
+        <nombre>Humidificador</nombre>
+        <ubicacion>Dormitorio</ubicacion>
+        <consumo_w>30</consumo_w>
+    </dispositivo>
+</hogar>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo_juegos>
+    <juego pegi="18">
+        <titulo>Elden Ring</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>RPG</genero>
+    </juego>
+    <juego pegi="3">
+        <titulo>Mario Kart 8</titulo>
+        <plataforma>Switch</plataforma>
+        <genero>Carreras</genero>
+    </juego>
+    <juego pegi="12">
+        <titulo>Zelda: TotK</titulo>
+        <plataforma>Switch</plataforma>
+        <genero>Aventura</genero>
+    </juego>
+    <juego pegi="18">
+        <titulo>GTA V</titulo>
+        <plataforma>PC</plataforma>
+        <genero>Acción</genero>
+    </juego>
+    <juego pegi="16">
+        <titulo>Horizon FW</titulo>
+        <plataforma>PS5</plataforma>
+        <genero>Aventura</genero>
+    </juego>
+    <juego pegi="3">
+        <titulo>Animal Crossing</titulo>
+        <plataforma>Switch</plataforma>
+        <genero>Simulación</genero>
+    </juego>
+    <juego pegi="18">
+        <titulo>Cyberpunk 2077</titulo>
+        <plataforma>PC</plataforma>
+        <genero>RPG</genero>
+    </juego>
+    <juego pegi="12">
+        <titulo>Spider-Man 2</titulo>
+        <plataforma>PS5</plataforma>
+        <genero>Acción</genero>
+    </juego>
+    <juego pegi="3">
+        <titulo>FIFA 24</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Deportes</genero>
+    </juego>
+    <juego pegi="7">
+        <titulo>Minecraft</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Sandbox</genero>
+    </juego>
+    <juego pegi="18">
+        <titulo>Resident Evil 4</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Terror</genero>
+    </juego>
+    <juego pegi="16">
+        <titulo>Final Fantasy XVI</titulo>
+        <plataforma>PS5</plataforma>
+        <genero>RPG</genero>
+    </juego>
+    <juego pegi="12">
+        <titulo>Sea of Thieves</titulo>
+        <plataforma>PC</plataforma>
+        <genero>Aventura</genero>
+    </juego>
+    <juego pegi="18">
+        <titulo>The Witcher 3</titulo>
+        <plataforma>PC</plataforma>
+        <genero>RPG</genero>
+    </juego>
+    <juego pegi="7">
+        <titulo>Ratchet &amp; Clank</titulo>
+        <plataforma>PS5</plataforma>
+        <genero>Plataformas</genero>
+    </juego>
+    <juego pegi="12">
+        <titulo>Hogwarts Legacy</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Aventura</genero>
+    </juego>
+    <juego pegi="18">
+        <titulo>God of War</titulo>
+        <plataforma>PS5</plataforma>
+        <genero>Acción</genero>
+    </juego>
+    <juego pegi="3">
+        <titulo>Stardew Valley</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Simulación</genero>
+    </juego>
+    <juego pegi="16">
+        <titulo>Street Fighter 6</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Lucha</genero>
+    </juego>
+    <juego pegi="12">
+        <titulo>It Takes Two</titulo>
+        <plataforma>Multi</plataforma>
+        <genero>Plataformas</genero>
+    </juego>
+</catalogo_juegos>

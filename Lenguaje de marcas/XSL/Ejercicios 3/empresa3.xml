@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado rol="admin">
+        <nombre>Ana García</nombre>
+        <departamento>Sistemas</departamento>
+        <proyectos>
+            <p>Migración</p>
+            <p>Firewall</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Juan Pérez</nombre>
+        <departamento>Marketing</departamento>
+        <proyectos>
+            <p>Ads 2026</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Luis Romero</nombre>
+        <departamento>Sistemas</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Elena Soto</nombre>
+        <departamento>Diseño</departamento>
+        <proyectos>
+            <p>Logo</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="admin">
+        <nombre>Carlos Ruiz</nombre>
+        <departamento>RRHH</departamento>
+        <proyectos>
+            <p>Nóminas</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Marta Ortiz</nombre>
+        <departamento>Marketing</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>David León</nombre>
+        <departamento>Ventas</departamento>
+        <proyectos>
+            <p>Lead Gen</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Sara M.</nombre>
+        <departamento>Sistemas</departamento>
+        <proyectos>
+            <p>Backups</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="admin">
+        <nombre>Jorge H.</nombre>
+        <departamento>Ventas</departamento>
+        <proyectos>
+            <p>Expansion</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Paula V.</nombre>
+        <departamento>Diseño</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Raúl S.</nombre>
+        <departamento>RRHH</departamento>
+        <proyectos>
+            <p>Training</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Inés C.</nombre>
+        <departamento>Ventas</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Tomás G.</nombre>
+        <departamento>Marketing</departamento>
+        <proyectos>
+            <p>Eventos</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="admin">
+        <nombre>Silvia P.</nombre>
+        <departamento>Sistemas</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Marcos L.</nombre>
+        <departamento>Diseño</departamento>
+        <proyectos>
+            <p>Web UI</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Beatriz R.</nombre>
+        <departamento>Ventas</departamento>
+        <proyectos>
+            <p>CRM Update</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Fernando K.</nombre>
+        <departamento>Sistemas</departamento>
+        <proyectos>
+            <p>Helpdesk</p>
+        </proyectos>
+    </empleado>
+    <empleado rol="admin">
+        <nombre>Gloria J.</nombre>
+        <departamento>Marketing</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Alberto F.</nombre>
+        <departamento>RRHH</departamento>
+        <proyectos/>
+    </empleado>
+    <empleado rol="usuario">
+        <nombre>Carmen D.</nombre>
+        <departamento>Ventas</departamento>
+        <proyectos>
+            <p>Annual Report</p>
+        </proyectos>
+    </empleado>
+</empresa>
