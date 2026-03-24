@@ -143,12 +143,12 @@ for libro in libros:
 resultados = dao.buscar_por_titulo("Du")
 
 for libro in resultados:
-    print(libro)
+    print(f"Libro buscado: {libro}")
 
 dao.actualizar_anio(1,1950)
 
 for libro in dao.obtener_todos():
-    print(libro)
+    print(f"Libro actualizado: {libro}")
 
 
 dao.eliminar(2)

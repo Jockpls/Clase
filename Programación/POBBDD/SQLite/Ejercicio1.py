@@ -22,7 +22,7 @@ class Alumno:
     def __str__(self):
         return f'{self.id}, {self.nombre}, {self.edad}, {self.curso}'
 
-class alumnoDAO:
+class AlumnoDAO:
     def __init__(self, instituto_bd):
         self.instituto_bd = instituto_bd
 
@@ -30,7 +30,6 @@ class alumnoDAO:
         return sqlite3.connect(self.instituto_bd)
 
     def crear_tabla(self):
-
         conectar = self._conectar()
         cursor = conectar.cursor()
 
@@ -95,12 +94,59 @@ class alumnoDAO:
 
         return alumnos
 
-    def actualizar_curso(self):
+    def actualizar_curso(self, edad, curso, id):
+        conectar = self._conectar()
+        cursor = conectar.cursor()
 
-    def eliminar(self):
+        cursor.execute(
+            "UPDATE alumnos SET edad = ?, curso = ? WHERE id = ?",
+            (id, edad, curso)
+        )
+
+        conectar.commit()
+
+        filas = cursor.rowcount
+
+        conectar.close()
+
+        return filas
+
+    def eliminar(self, id):
+        conectar = self._conectar()
+        cursor = conectar.cursor()
+
+        cursor.execute(
+            "DELETE FROM alumnos WHERE id = ?",
+            (id,)
+        )
+
+        conectar.commit()
+        filas = cursor.rowcount
+        conectar.close()
+
+        return filas
 
 def main():
+    dao = AlumnoDAO("clase.db")
 
+    dao.crear_tabla()
+
+    dao.insertar(Alumno(1, "Jose Carlos", 29, '1DAW'))
+    dao.insertar(Alumno(2, "Paco", 18, '1DAW'))
+    dao.insertar(Alumno(3, "Pedro", 22, '1DAW'))
+    dao.insertar(Alumno(4, "David", 20, '1DAW'))
+    dao.insertar(Alumno(5, "Eva", 20, '1DAM'))
+
+    print("Alumnos admitidos.")
+
+    alumnos = dao.obtener_todos()
+
+    for alumno in alumnos:
+        print(alumno)
+
+    dao.eliminar(3)
+
+    dao.actualizar_curso(4)
 
 
 main()
