@@ -13,7 +13,7 @@ Reflexiona: ¿Por qué usar id? ¿Qué ventajas tiene DAO?
 """
 
 class Alumno:
-    def __init__(self, id, nombre, edad, curso):
+    def __init__(self, nombre, edad, curso, id=None):
         self.id = id
         self.nombre = nombre
         self.edad = edad
@@ -60,9 +60,7 @@ class AlumnoDAO:
         conectar = self._conectar()
         cursor = conectar.cursor()
 
-        cursor.execute(
-            "SELECT id, nombre, edad, curso FROM alumno"
-        )
+        cursor.execute("SELECT id, nombre, edad, curso FROM alumnos")
 
         filas = cursor.fetchall()
         conectar.close()
@@ -131,11 +129,11 @@ def main():
 
     dao.crear_tabla()
 
-    dao.insertar(Alumno(1, "Jose Carlos", 29, '1DAW'))
-    dao.insertar(Alumno(2, "Paco", 18, '1DAW'))
-    dao.insertar(Alumno(3, "Pedro", 22, '1DAW'))
-    dao.insertar(Alumno(4, "David", 20, '1DAW'))
-    dao.insertar(Alumno(5, "Eva", 20, '1DAM'))
+    dao.insertar(Alumno( "Jose Carlos", 29, '1DAW'))
+    dao.insertar(Alumno( "Paco", 18, '1DAW'))
+    dao.insertar(Alumno( "Pedro", 22, '1DAW'))
+    dao.insertar(Alumno( "David", 20, '1DAW'))
+    dao.insertar(Alumno( "Eva", 20, '1DAM'))
 
     print("Alumnos admitidos.")
 
@@ -146,7 +144,7 @@ def main():
 
     dao.eliminar(3)
 
-    dao.actualizar_curso(4)
+    dao.actualizar_curso(21,'1DAM',4)
 
 
 main()
