@@ -4,7 +4,9 @@
 7 Actualizar datos.
 8 Eliminar datos
 """
+
 import sqlite3
+
 
 class Alumno:
     def __init__(self, nombre, edad, id=None):
@@ -12,11 +14,13 @@ class Alumno:
         self.edad = edad
         self.id = id
 
+
 class Asignatura:
     def __init__(self, nombre, horas, id=None):
         self.nombre = nombre
         self.horas = horas
         self.id = id
+
 
 class matricula:
     def __init__(self, nota, id=None, alumno_id=None, asignatura_id=None):
@@ -25,23 +29,26 @@ class matricula:
         self.alumno_id = alumno_id
         self.asignatura_id = asignatura_id
 
+
 class InstitutoDAO:
     def __init__(self, highschool_bd):
         self.highschool_bd = highschool_bd
 
     def _conectar(self):
-        return sqlite3.connect('self.highschool_db')
+        return sqlite3.connect("self.highschool_db")
 
     def crear_alumno(self, alumno):
         conectar = self._conectar()
         cursor = conectar.cursor()
 
-        cursor.execute("""
+        cursor.execute(
+            """
         CREATE TABLE IF NOT EXISTS alumnos (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nombre TEXT,
         edad INTEGER,
-        """)
+        """
+        )
 
         conectar.commit()
         conectar.close()
@@ -50,12 +57,14 @@ class InstitutoDAO:
         conectar = self._conectar()
         cursor = conectar.cursor()
 
-        cursor.execute("""
+        cursor.execute(
+            """
         CREATE TABLE IF NOT EXISTS asignaturas (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nombre TEXT,
         horas INTEGER,
-        """)
+        """
+        )
 
         conectar.commit()
         conectar.close()
@@ -64,7 +73,8 @@ class InstitutoDAO:
         conectar = self._conectar()
         cursor = conectar.cursor()
 
-        cursor.execute("""
+        cursor.execute(
+            """
         CREATE TABLE IF NOT EXISTS matriculas (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nota FLOAT,
@@ -72,7 +82,8 @@ class InstitutoDAO:
         asignatura_id INTEGER,
         CONSTRAINT FOREIGN KEY(alumno_id) REFERENCES alumnos(id)
         CONSTRAINT FOREIGN KEY(asignatura_id) REFERENCES asignaturas(id)
-        """)
+        """
+        )
 
         conectar.commit()
         conectar.close()
@@ -83,8 +94,8 @@ class InstitutoDAO:
 
         cursor.execute(
             "INSERT INTO alumnos(id, nombre, edad) VALUES (?,?,?)",
-            (alumno.id, alumno.nombre, alumno.edad)
-                       )
+            (alumno.id, alumno.nombre, alumno.edad),
+        )
 
         conectar.commit()
         conectar.close()
@@ -95,7 +106,7 @@ class InstitutoDAO:
 
         cursor.execute(
             "INSERT INTO asignaturas(id, nombre, horas) VALUES (?,?,?)",
-            (asignatura.id, asignatura.nombre, asignatura.horas)
+            (asignatura.id, asignatura.nombre, asignatura.horas),
         )
 
         conectar.commit()
@@ -107,7 +118,7 @@ class InstitutoDAO:
 
         cursor.execute(
             "INSERT INTO matriculas(id, nota, alumno_id, asignatura_id) VALUES (?,?,?,?)",
-            (matricula.id, matricula.nota, alumno.id, asignatura.id)
+            (matricula.id, matricula.nota, alumno.id, asignatura.id),
         )
 
         conectar.commit()
@@ -153,4 +164,3 @@ class InstitutoDAO:
 
         for fila in filas:
             matriculas.append(matricula(fila[0], fila[1], fila[2], fila[3]))
-

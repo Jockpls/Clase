@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+0<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="Ejercicio2.xsl"?>
 <hospital>
     <paciente id="p001" tipo_seguro="privado">

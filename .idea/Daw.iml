@@ -3,8 +3,20 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Entornos de Desarrollo/Ejercicios depuración/Biblioteca (errores)" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Ejercicios 1/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Ejercicios 2/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Introducción/PythonProject/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Introducción/Recursividad/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Introducción/Variables Locales y Globales/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Introducción/a jugar/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Introducción/funciones/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/Introducción/prueba divertida 1/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/POO/Ejemplo de prueba divertida/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Programación/POO/Ejercicio banco/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (Daw)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -12,6 +12,7 @@ Programa de prueba: insertar alumnos, mostrar, buscar, actualizar y eliminar.
 Reflexiona: ¿Por qué usar id? ¿Qué ventajas tiene DAO?
 """
 
+
 class Alumno:
     def __init__(self, nombre, edad, curso, id=None):
         self.id = id
@@ -20,7 +21,8 @@ class Alumno:
         self.curso = curso
 
     def __str__(self):
-        return f'{self.id}, {self.nombre}, {self.edad}, {self.curso}'
+        return f"{self.id}, {self.nombre}, {self.edad}, {self.curso}"
+
 
 class AlumnoDAO:
     def __init__(self, instituto_bd):
@@ -33,13 +35,15 @@ class AlumnoDAO:
         conectar = self._conectar()
         cursor = conectar.cursor()
 
-        cursor.execute("""
+        cursor.execute(
+            """
         CREATE TABLE IF NOT EXISTS alumnos (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nombre TEXT NOT NULL,
             edad INTEGER NOT NULL,
             curso TEXT NOT NULL)              
-            """)
+            """
+        )
 
         conectar.commit()
         conectar.close()
@@ -50,7 +54,7 @@ class AlumnoDAO:
 
         cursor.execute(
             "INSERT INTO alumnos (id, nombre, edad, curso) VALUES (?, ?, ?, ?)",
-            (alumno.id, alumno.nombre, alumno.edad, alumno.curso)
+            (alumno.id, alumno.nombre, alumno.edad, alumno.curso),
         )
 
         conectar.commit()
@@ -78,8 +82,7 @@ class AlumnoDAO:
         cursor = conectar.cursor()
 
         cursor.execute(
-            "SELECT nombre FROM alumnos WHERE nombre LIKE ?",
-            ("%"+texto+"%",)
+            "SELECT nombre FROM alumnos WHERE nombre LIKE ?", ("%" + texto + "%",)
         )
 
         filas = cursor.fetchall()
@@ -97,8 +100,7 @@ class AlumnoDAO:
         cursor = conectar.cursor()
 
         cursor.execute(
-            "UPDATE alumnos SET edad = ?, curso = ? WHERE id = ?",
-            (id, edad, curso)
+            "UPDATE alumnos SET edad = ?, curso = ? WHERE id = ?", (id, edad, curso)
         )
 
         conectar.commit()
@@ -113,10 +115,7 @@ class AlumnoDAO:
         conectar = self._conectar()
         cursor = conectar.cursor()
 
-        cursor.execute(
-            "DELETE FROM alumnos WHERE id = ?",
-            (id,)
-        )
+        cursor.execute("DELETE FROM alumnos WHERE id = ?", (id,))
 
         conectar.commit()
         filas = cursor.rowcount
@@ -124,16 +123,17 @@ class AlumnoDAO:
 
         return filas
 
+
 def main():
     dao = AlumnoDAO("clase.db")
 
     dao.crear_tabla()
 
-    dao.insertar(Alumno( "Jose Carlos", 29, '1DAW'))
-    dao.insertar(Alumno( "Paco", 18, '1DAW'))
-    dao.insertar(Alumno( "Pedro", 22, '1DAW'))
-    dao.insertar(Alumno( "David", 20, '1DAW'))
-    dao.insertar(Alumno( "Eva", 20, '1DAM'))
+    dao.insertar(Alumno("Jose Carlos", 29, "1DAW"))
+    dao.insertar(Alumno("Paco", 18, "1DAW"))
+    dao.insertar(Alumno("Pedro", 22, "1DAW"))
+    dao.insertar(Alumno("David", 20, "1DAW"))
+    dao.insertar(Alumno("Eva", 20, "1DAM"))
 
     print("Alumnos admitidos.")
 
@@ -144,7 +144,7 @@ def main():
 
     dao.eliminar(3)
 
-    dao.actualizar_curso(21,'1DAM',4)
+    dao.actualizar_curso(21, "1DAM", 4)
 
 
 main()

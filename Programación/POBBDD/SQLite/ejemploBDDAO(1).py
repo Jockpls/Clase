@@ -1,5 +1,6 @@
 import sqlite3
 
+
 class Libro:
 
     def __init__(self, titulo, autor, anio, id=None):
@@ -25,14 +26,16 @@ class LibroDAO:
         conexion = self._conectar()
         cursor = conexion.cursor()
 
-        cursor.execute("""
+        cursor.execute(
+            """
         CREATE TABLE IF NOT EXISTS libros (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             titulo TEXT NOT NULL,
             autor TEXT NOT NULL,
             anio INTEGER NOT NULL
         )
-        """)
+        """
+        )
 
         conexion.commit()
         conexion.close()
@@ -44,7 +47,7 @@ class LibroDAO:
 
         cursor.execute(
             "INSERT INTO libros (titulo, autor, anio) VALUES (?, ?, ?)",
-            (libro.titulo, libro.autor, libro.anio)
+            (libro.titulo, libro.autor, libro.anio),
         )
 
         conexion.commit()
@@ -61,77 +64,72 @@ class LibroDAO:
 
         conexion.close()
 
-        libros=[]
+        libros = []
 
         for fila in filas:
-            libros.append(Libro(fila[1],fila[2],fila[3],fila[0]))
+            libros.append(Libro(fila[1], fila[2], fila[3], fila[0]))
 
         return libros
 
-    def buscar_por_titulo(self,texto):
+    def buscar_por_titulo(self, texto):
 
-        conexion=self._conectar()
-        cursor=conexion.cursor()
+        conexion = self._conectar()
+        cursor = conexion.cursor()
 
         cursor.execute(
             "SELECT id,titulo,autor,anio FROM libros WHERE titulo LIKE ?",
-            ("%"+texto+"%",)
+            ("%" + texto + "%",),
         )
 
-        filas=cursor.fetchall()
+        filas = cursor.fetchall()
 
         conexion.close()
 
-        libros=[]
+        libros = []
 
         for fila in filas:
-            libros.append(Libro(fila[1],fila[2],fila[3],fila[0]))
+            libros.append(Libro(fila[1], fila[2], fila[3], fila[0]))
 
         return libros
 
-    def actualizar_anio(self,id_libro,nuevo_anio):
+    def actualizar_anio(self, id_libro, nuevo_anio):
 
-        conexion=self._conectar()
-        cursor=conexion.cursor()
+        conexion = self._conectar()
+        cursor = conexion.cursor()
 
-        cursor.execute(
-            "UPDATE libros SET anio=? WHERE id=?",
-            (nuevo_anio,id_libro)
-        )
+        cursor.execute("UPDATE libros SET anio=? WHERE id=?", (nuevo_anio, id_libro))
 
         conexion.commit()
 
-        filas=cursor.rowcount
+        filas = cursor.rowcount
 
         conexion.close()
 
         return filas
 
-    def eliminar(self,id_libro):
+    def eliminar(self, id_libro):
 
-        conexion=self._conectar()
-        cursor=conexion.cursor()
+        conexion = self._conectar()
+        cursor = conexion.cursor()
 
-        cursor.execute(
-            "DELETE FROM libros WHERE id=?",
-            (id_libro,)
-        )
+        cursor.execute("DELETE FROM libros WHERE id=?", (id_libro,))
 
         conexion.commit()
 
-        filas=cursor.rowcount
+        filas = cursor.rowcount
 
         conexion.close()
 
         return filas
+
 
 dao = LibroDAO("biblioteca.db")
 
 dao.crear_tabla()
 
-dao.insertar(Libro("1984","George Orwell",1949))
-dao.insertar(Libro("El Quijote","Miguel de Cervantes",1605))
-dao.insertar(Libro("Dune","Frank Herbert",1965))
+dao.insertar(Libro("1984", "George Orwell", 1949))
+dao.insertar(Libro("El Quijote", "Miguel de Cervantes", 1605))
+dao.insertar(Libro("Dune", "Frank Herbert", 1965))
 
 print("Libros insertados")
 
@@ -145,7 +143,7 @@ resultados = dao.buscar_por_titulo("Du")
 for libro in resultados:
     print(f"Libro buscado: {libro}")
 
-dao.actualizar_anio(1,1950)
+dao.actualizar_anio(1, 1950)
 
 for libro in dao.obtener_todos():
     print(f"Libro actualizado: {libro}")
